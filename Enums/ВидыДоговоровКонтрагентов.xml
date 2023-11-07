@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="40ab1e15-48cc-4f4b-ba88-56ff063c5001">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыДоговоровКонтрагентов" category="Ref">
+				<xr:TypeId>46f840e7-ca60-4ec4-97db-d1c1be40ff3c</xr:TypeId>
+				<xr:ValueId>c0a3e76e-8519-40bd-8fe7-67cbda241ff1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыДоговоровКонтрагентов" category="Manager">
+				<xr:TypeId>c45526eb-c9fe-4774-a29a-3ed55f55a411</xr:TypeId>
+				<xr:ValueId>b2de51c6-753d-4ed6-9daf-f34ee1d26d92</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыДоговоровКонтрагентов" category="List">
+				<xr:TypeId>3d742ca2-251a-444e-bb4d-5281b17347cc</xr:TypeId>
+				<xr:ValueId>e9b1b72f-78af-44e3-bbaf-bd2c99e2afdd</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыДоговоровКонтрагентов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e15b40d3-747a-4516-bd43-469db8e9da3b</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="22618dd0-698c-439b-9ba4-4d85035355b7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СПоставщиком</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>70ad4bc4-185e-4fb4-b2a3-3facfc34ef3d</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e7ba522f-cd70-4cfe-953e-461ddfff9fd2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СКомиссионеромНаЗакупку</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1eb564ac-8a95-4795-8e25-f4efc964505c</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ba7b3a0e-12e3-41f4-93fc-28b8bbfb0532">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СФакторинговойКомпанией</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d40b5908-1eff-4857-85b7-89ec745c725a</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

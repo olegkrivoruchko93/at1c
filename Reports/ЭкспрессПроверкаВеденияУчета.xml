@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Report uuid="b1ea7488-0ea2-4180-a717-d1c1342eca40">
+		<InternalInfo>
+			<xr:GeneratedType name="ReportObject.ЭкспрессПроверкаВеденияУчета" category="Object">
+				<xr:TypeId>7e7f62d1-6fe0-4e22-94dc-422eb2078cbf</xr:TypeId>
+				<xr:ValueId>99e63fb2-1879-462b-ae50-fea63432ad99</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ReportManager.ЭкспрессПроверкаВеденияУчета" category="Manager">
+				<xr:TypeId>72e8051f-b415-492f-8482-a2b91e591670</xr:TypeId>
+				<xr:ValueId>e7ac4055-fabf-47d2-8ef6-a17a55766929</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЭкспрессПроверкаВеденияУчета</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>44cd5e63-890f-431d-84d4-bce00898135a</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаОтчета</Form>
+			<Template>ОписаниеПроверок</Template>
+			<Template>ОтчетыОбОшибках</Template>
+		</ChildObjects>
+	</Report>
+</MetaDataObject>

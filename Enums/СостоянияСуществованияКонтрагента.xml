@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="e2e31daf-4d52-4e94-a9c8-bcb48e5120eb">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостоянияСуществованияКонтрагента" category="Ref">
+				<xr:TypeId>f8d7ea9b-e488-435f-a213-f4aa75e62be9</xr:TypeId>
+				<xr:ValueId>26598434-32d8-4fcb-bdee-2046df020660</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостоянияСуществованияКонтрагента" category="Manager">
+				<xr:TypeId>88d58b8c-25f8-4a7c-8706-dc1ab3dbfee0</xr:TypeId>
+				<xr:ValueId>2c68fbe0-e68a-44bd-80ae-08e446ca22ab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостоянияСуществованияКонтрагента" category="List">
+				<xr:TypeId>422f2d4e-076d-4b05-8774-7a1c70cf71e3</xr:TypeId>
+				<xr:ValueId>b812af97-9214-4590-90b5-9097dbd56176</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СостоянияСуществованияКонтрагента</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>618b8843-7413-4634-bd65-18d904c2582f</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="c8ae821f-732a-4925-a788-e5eb1b55d0ef">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КонтрагентЕстьВБазеФНС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>253b97a6-4e04-40d0-a39e-99500d54accb</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
