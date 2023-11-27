@@ -8,7 +8,8 @@
 			<Comment/>
 			<ExtendedConfigurationObject>1aecbbf0-064f-4e98-9b57-06fd68b1b7e3</ExtendedConfigurationObject>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ИБ_ФормаКонстант</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ДБ_ФормаКонстант</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ДБ_ПроверкаДублей</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

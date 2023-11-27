@@ -31,7 +31,7 @@
 			<RegisterRecords/>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="172bde97-8160-445d-bd77-cfb1f9639a5b">
+			<Attribute uuid="3e4b2587-5026-4595-b78e-d3f2876ff604">
 				<InternalInfo/>
 				<Properties>
 					<ObjectBelonging>Adopted</ObjectBelonging>
@@ -46,7 +46,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="ca077d01-8640-45d3-82de-1c12e4ac0fc6">
+			<Attribute uuid="e4a97eee-feca-4c8c-855e-96c579db6376">
 				<InternalInfo/>
 				<Properties>
 					<ObjectBelonging>Adopted</ObjectBelonging>
@@ -62,7 +62,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="340c4e6a-5b98-4f09-b76b-d1ac529c7f6f">
+			<Attribute uuid="e6b9bfd6-fa6d-4db2-b0d1-c59c8ef223c9">
 				<InternalInfo/>
 				<Properties>
 					<ObjectBelonging>Adopted</ObjectBelonging>

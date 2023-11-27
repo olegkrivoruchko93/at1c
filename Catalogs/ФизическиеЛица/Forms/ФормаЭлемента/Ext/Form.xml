@@ -47,7 +47,7 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
-		<Event name="OnCreateAtServer" callType="After">иб_ПриСозданииНаСервереПосле</Event>
+		<Event name="OnCreateAtServer" callType="After">ДБ_ПриСозданииНаСервереПосле</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаДополнительныеДанные" id="395">
@@ -131,7 +131,7 @@
 									<ContextMenu name="ФИОКонтекстноеМеню" id="253"/>
 									<ExtendedTooltip name="ФИОExtendedTooltip" id="399"/>
 									<Events>
-										<Event name="AutoComplete" callType="After">иб_ФИОАвтоПодборПосле</Event>
+										<Event name="AutoComplete" callType="After">ДБ_ФИОАвтоПодборПосле</Event>
 									</Events>
 								</InputField>
 								<Button name="Склонения" id="503">
@@ -951,22 +951,11 @@
 		</Pages>
 	</ChildItems>
 	<Attributes>
-		<Attribute name="ИБ_ИспользоватьПодсказкуEmailDadata" id="1000001">
+		<Attribute name="ДБ_ИспользоватьПодсказкуDadata" id="1000001">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>И б использовать подсказку email dadata</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:boolean</v8:Type>
-			</Type>
-		</Attribute>
-		<Attribute name="ИБ_ИспользоватьПодсказкуФИОDadata" id="1000002">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>И б использовать подсказку ФИОDadata</v8:content>
+					<v8:content>Д б использовать подсказку dadata</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -977,7 +966,6 @@
 	<BaseForm version="2.15">
 		<Width>100</Width>
 		<VerticalScroll>useIfNecessary</VerticalScroll>
-		<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 			<Autofill>false</Autofill>
 			<ChildItems>

@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<CommandSet>
+		<ExcludedCommand>WriteAndClose</ExcludedCommand>
+	</CommandSet>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 		<ChildItems>
@@ -91,6 +95,7 @@
 							<Button name="ОбщаяКомандаПрисоединенныеФайлы" id="1087">
 								<Type>CommandBarButton</Type>
 								<CommandName>0</CommandName>
+								<DataPath>Объект.Ref</DataPath>
 								<ExtendedTooltip name="ОбщаяКомандаПрисоединенныеФайлыРасширеннаяПодсказка" id="1088"/>
 							</Button>
 						</ChildItems>
@@ -107,6 +112,7 @@
 							<Button name="ФормаДокументСправкиСПАРКРискиСправкиСПАРКРискиПоКонтрагенту" id="805">
 								<Type>CommandBarButton</Type>
 								<CommandName>0</CommandName>
+								<DataPath>Объект.Ref</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -118,6 +124,7 @@
 							<Button name="ФормаСправочникКонтрагентыВебВерсияСПАРК" id="807">
 								<Type>CommandBarButton</Type>
 								<CommandName>0</CommandName>
+								<DataPath>Объект.Ref</DataPath>
 								<ExtendedTooltip name="ФормаСправочникКонтрагентыВебВерсияСПАРКРасширеннаяПодсказка" id="808"/>
 							</Button>
 						</ChildItems>
@@ -159,8 +166,7 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
-		<Event name="BeforeWrite" callType="Before">иб_ПередЗаписьюПеред</Event>
-		<Event name="OnCreateAtServer" callType="After">иб_ПриСозданииНаСервереПосле</Event>
+		<Event name="OnCreateAtServer" callType="After">ДБ_ПриСозданииНаСервереПосле</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаЗаполнениеПоДаннымЕГР" id="427">
@@ -368,6 +374,7 @@
 									<ExtendedTooltip name="ВидExtendedTooltip" id="165"/>
 								</InputField>
 								<InputField name="Код" id="4">
+									<DataPath>Объект.Code</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -416,6 +423,7 @@
 									<ExtendedTooltip name="ГруппаНаименованиеПолноеРасширеннаяПодсказка" id="1055"/>
 									<ChildItems>
 										<InputField name="НаименованиеПолное" id="1056">
+											<DataPath>Объект.НаименованиеПолное</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -477,6 +485,7 @@
 									<ExtendedTooltip name="ГруппаНаименованиеРасширеннаяПодсказка" id="1050"/>
 									<ChildItems>
 										<InputField name="Наименование" id="1051">
+											<DataPath>Объект.Description</DataPath>
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -501,6 +510,7 @@
 							</ChildItems>
 						</UsualGroup>
 						<InputField name="Родитель" id="27">
+							<DataPath>Объект.Parent</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -514,6 +524,7 @@
 							<ExtendedTooltip name="РодительExtendedTooltip" id="164"/>
 						</InputField>
 						<InputField name="СтранаРегистрации" id="373">
+							<DataPath>Объект.СтранаРегистрации</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -533,6 +544,7 @@
 							<ExtendedTooltip name="СтранаРегистрацииРасширеннаяПодсказка" id="375"/>
 						</InputField>
 						<InputField name="ГоловнойКонтрагент" id="159">
+							<DataPath>Объект.ГоловнойКонтрагент</DataPath>
 							<HorizontalStretch>true</HorizontalStretch>
 							<ContextMenu name="ГоловнойКонтрагентКонтекстноеМеню" id="160"/>
 							<ExtendedTooltip name="ГоловнойКонтрагентExtendedTooltip" id="177"/>
@@ -552,6 +564,7 @@
 							<ExtendedTooltip name="ГруппаГосударственныйОрганРасширеннаяПодсказка" id="396"/>
 							<ChildItems>
 								<InputField name="ВидГосударственногоОргана" id="397">
+									<DataPath>Объект.ВидГосударственногоОргана</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -564,6 +577,7 @@
 									<ExtendedTooltip name="ВидГосударственногоОрганаРасширеннаяПодсказка" id="399"/>
 								</InputField>
 								<InputField name="КодГосударственногоОргана" id="400">
+									<DataPath>Объект.КодГосударственногоОргана</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -578,6 +592,7 @@
 							</ChildItems>
 						</UsualGroup>
 						<InputField name="НалоговыйНомер" id="444">
+							<DataPath>Объект.НалоговыйНомер</DataPath>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -616,6 +631,7 @@
 							<ExtendedTooltip name="ГруппаИННРасширеннаяПодсказка" id="172"/>
 							<ChildItems>
 								<InputField name="ИНН" id="157">
+									<DataPath>Объект.ИНН</DataPath>
 									<Width>17</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<InputHint>
@@ -666,6 +682,7 @@
 							<ExtendedTooltip name="ГруппаКППРасширеннаяПодсказка" id="346"/>
 							<ChildItems>
 								<InputField name="КПП" id="14">
+									<DataPath>Объект.КПП</DataPath>
 									<Width>17</Width>
 									<InputHint>
 										<v8:item>
@@ -717,6 +734,7 @@
 							<ExtendedTooltip name="НадписьПояснениеПроверкиДублейФНСРасширеннаяПодсказка" id="596"/>
 						</LabelField>
 						<InputField name="КодПоОКПО" id="25">
+							<DataPath>Объект.КодПоОКПО</DataPath>
 							<UserVisible>
 								<xr:Common>false</xr:Common>
 							</UserVisible>
@@ -724,6 +742,7 @@
 							<ExtendedTooltip name="КодПоОКПОExtendedTooltip" id="180"/>
 						</InputField>
 						<InputField name="РегистрационныйНомер" id="376">
+							<DataPath>Объект.РегистрационныйНомер</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -757,16 +776,19 @@
 							<ExtendedTooltip name="ГруппаРегистрацияКакИПРасширеннаяПодсказка" id="404"/>
 							<ChildItems>
 								<InputField name="СвидетельствоСерияНомер" id="405">
+									<DataPath>Объект.СвидетельствоСерияНомер</DataPath>
 									<ContextMenu name="СвидетельствоСерияНомерКонтекстноеМеню" id="406"/>
 									<ExtendedTooltip name="СвидетельствоСерияНомерРасширеннаяПодсказка" id="407"/>
 								</InputField>
 								<InputField name="СвидетельствоДатаВыдачи" id="408">
+									<DataPath>Объект.СвидетельствоДатаВыдачи</DataPath>
 									<ContextMenu name="СвидетельствоДатаВыдачиКонтекстноеМеню" id="409"/>
 									<ExtendedTooltip name="СвидетельствоДатаВыдачиРасширеннаяПодсказка" id="410"/>
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
 						<InputField name="ДокументУдостоверяющийЛичность" id="21">
+							<DataPath>Объект.ДокументУдостоверяющийЛичность</DataPath>
 							<InputHint>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -777,6 +799,7 @@
 							<ExtendedTooltip name="ДокументУдостоверяющийЛичностьExtendedTooltip" id="183"/>
 						</InputField>
 						<InputField name="Комментарий" id="53">
+							<DataPath>Объект.Комментарий</DataPath>
 							<TitleLocation>Left</TitleLocation>
 							<Width>25</Width>
 							<ContextMenu name="КомментарийКонтекстноеМеню" id="54"/>
@@ -1773,19 +1796,49 @@
 									<v8:content>Телефон</v8:content>
 								</v8:item>
 							</Title>
-							<Group>Horizontal</Group>
+							<Group>AlwaysHorizontal</Group>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаКонтактнаяИнформацияПолеТелефонКонтрагентаРасширеннаяПодсказка" id="598"/>
 							<ChildItems>
-								<InputField name="КонтактнаяИнформацияПолеТелефонКонтрагента" id="134">
-									<Width>25</Width>
-									<HorizontalStretch>false</HorizontalStretch>
-									<ChoiceButton>true</ChoiceButton>
-									<ContextMenu name="КонтактнаяИнформацияПолеТелефонКонтрагентаКонтекстноеМеню" id="135"/>
-									<ExtendedTooltip name="КонтактнаяИнформацияПолеТелефонКонтрагентаРасширеннаяПодсказка" id="237"/>
-								</InputField>
+								<UsualGroup name="ГруппаКомментарийКонтактнаяИнформацияПолеТелефонКонтрагента" id="1113">
+									<EnableContentChange>true</EnableContentChange>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Телефон, комментарий</v8:content>
+										</v8:item>
+									</Title>
+									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаКомментарийКонтактнаяИнформацияПолеТелефонКонтрагентаРасширеннаяПодсказка" id="1115"/>
+									<ChildItems>
+										<InputField name="КонтактнаяИнформацияПолеТелефонКонтрагента" id="134">
+											<Width>40</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="КонтактнаяИнформацияПолеТелефонКонтрагентаКонтекстноеМеню" id="135"/>
+											<ExtendedTooltip name="КонтактнаяИнформацияПолеТелефонКонтрагентаРасширеннаяПодсказка" id="237"/>
+										</InputField>
+										<InputField name="КомментарийКонтактнаяИнформацияПолеТелефонКонтрагента" id="1094">
+											<TitleLocation>None</TitleLocation>
+											<Width>30</Width>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<MaxWidth>35</MaxWidth>
+											<HorizontalStretch>false</HorizontalStretch>
+											<InputHint>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Примечание</v8:content>
+												</v8:item>
+											</InputHint>
+											<ContextMenu name="КомментарийКонтактнаяИнформацияПолеТелефонКонтрагентаКонтекстноеМеню" id="1095"/>
+											<ExtendedTooltip name="КомментарийКонтактнаяИнформацияПолеТелефонКонтрагентаРасширеннаяПодсказка" id="1096"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
 								<Button name="КомандаКонтактнаяИнформацияПолеТелефонКонтрагента" id="527">
 									<Type>UsualButton</Type>
 									<CommandName>0</CommandName>
@@ -1801,21 +1854,49 @@
 									<v8:content>Факс</v8:content>
 								</v8:item>
 							</Title>
-							<Group>Horizontal</Group>
+							<Group>AlwaysHorizontal</Group>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаКонтактнаяИнформацияПолеФаксКонтрагентыРасширеннаяПодсказка" id="600"/>
 							<ChildItems>
-								<InputField name="КонтактнаяИнформацияПолеФаксКонтрагенты" id="136">
-									<UserVisible>
-										<xr:Common>false</xr:Common>
-									</UserVisible>
-									<Width>25</Width>
-									<HorizontalStretch>false</HorizontalStretch>
-									<ContextMenu name="КонтактнаяИнформацияПолеФаксКонтрагентыКонтекстноеМеню" id="137"/>
-									<ExtendedTooltip name="КонтактнаяИнформацияПолеФаксКонтрагентыРасширеннаяПодсказка" id="238"/>
-								</InputField>
+								<UsualGroup name="ГруппаКомментарийКонтактнаяИнформацияПолеФаксКонтрагенты" id="1097">
+									<EnableContentChange>true</EnableContentChange>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Факс, комментарий</v8:content>
+										</v8:item>
+									</Title>
+									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаКомментарийКонтактнаяИнформацияПолеФаксКонтрагентыРасширеннаяПодсказка" id="1098"/>
+									<ChildItems>
+										<InputField name="КонтактнаяИнформацияПолеФаксКонтрагенты" id="136">
+											<Width>40</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="КонтактнаяИнформацияПолеФаксКонтрагентыКонтекстноеМеню" id="137"/>
+											<ExtendedTooltip name="КонтактнаяИнформацияПолеФаксКонтрагентыРасширеннаяПодсказка" id="238"/>
+										</InputField>
+										<InputField name="КомментарийКонтактнаяИнформацияПолеФаксКонтрагенты" id="1102">
+											<TitleLocation>None</TitleLocation>
+											<Width>30</Width>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<MaxWidth>35</MaxWidth>
+											<HorizontalStretch>false</HorizontalStretch>
+											<InputHint>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Примечание</v8:content>
+												</v8:item>
+											</InputHint>
+											<ContextMenu name="КомментарийКонтактнаяИнформацияПолеФаксКонтрагентыКонтекстноеМеню" id="1103"/>
+											<ExtendedTooltip name="КомментарийКонтактнаяИнформацияПолеФаксКонтрагентыРасширеннаяПодсказка" id="1104"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаКонтактнаяИнформацияПолеEmailКонтрагенты" id="606">
@@ -1826,27 +1907,52 @@
 									<v8:content>Группа контактная информация поле email контрагенты</v8:content>
 								</v8:item>
 							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа контактная информация поле email контрагенты</v8:content>
-								</v8:item>
-							</ToolTip>
-							<Group>Horizontal</Group>
+							<Group>AlwaysHorizontal</Group>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаКонтактнаяИнформацияПолеEmailКонтрагентыРасширеннаяПодсказка" id="607"/>
 							<ChildItems>
-								<InputField name="КонтактнаяИнформацияПолеEmailКонтрагенты" id="138">
-									<Width>25</Width>
-									<HorizontalStretch>false</HorizontalStretch>
-									<ContextMenu name="КонтактнаяИнформацияПолеEmailКонтрагентыКонтекстноеМеню" id="139"/>
-									<ExtendedTooltip name="КонтактнаяИнформацияПолеEmailКонтрагентыРасширеннаяПодсказка" id="239"/>
-									<Events>
-										<Event name="AutoComplete" callType="After">иб_КонтактнаяИнформацияПолеEmailКонтрагентыАвтоПодборПосле</Event>
-									</Events>
-								</InputField>
+								<UsualGroup name="ГруппаКомментарийКонтактнаяИнформацияПолеEmailКонтрагенты" id="1105">
+									<EnableContentChange>true</EnableContentChange>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>E-mail, комментарий</v8:content>
+										</v8:item>
+									</Title>
+									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаКомментарийКонтактнаяИнформацияПолеEmailКонтрагентыРасширеннаяПодсказка" id="1106"/>
+									<ChildItems>
+										<InputField name="КонтактнаяИнформацияПолеEmailКонтрагенты" id="138">
+											<Width>40</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="КонтактнаяИнформацияПолеEmailКонтрагентыКонтекстноеМеню" id="139"/>
+											<ExtendedTooltip name="КонтактнаяИнформацияПолеEmailКонтрагентыРасширеннаяПодсказка" id="239"/>
+											<Events>
+												<Event name="AutoComplete" callType="After">ДБ_КонтактнаяИнформацияПолеEmailКонтрагентыАвтоПодборПосле</Event>
+											</Events>
+										</InputField>
+										<InputField name="КомментарийКонтактнаяИнформацияПолеEmailКонтрагенты" id="1110">
+											<TitleLocation>None</TitleLocation>
+											<Width>30</Width>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<MaxWidth>35</MaxWidth>
+											<HorizontalStretch>false</HorizontalStretch>
+											<InputHint>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Примечание</v8:content>
+												</v8:item>
+											</InputHint>
+											<ContextMenu name="КомментарийКонтактнаяИнформацияПолеEmailКонтрагентыКонтекстноеМеню" id="1111"/>
+											<ExtendedTooltip name="КомментарийКонтактнаяИнформацияПолеEmailКонтрагентыРасширеннаяПодсказка" id="1112"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
 								<Button name="КомандаКонтактнаяИнформацияПолеEmailКонтрагенты" id="486">
 									<Type>UsualButton</Type>
 									<CommandName>0</CommandName>
@@ -1855,6 +1961,9 @@
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаКонтактнаяИнформацияПолеДругаяИнформацияКонтрагенты" id="613">
+							<UserVisible>
+								<xr:Common>false</xr:Common>
+							</UserVisible>
 							<EnableContentChange>true</EnableContentChange>
 							<Title>
 								<v8:item>
@@ -1862,18 +1971,17 @@
 									<v8:content>Другая информация</v8:content>
 								</v8:item>
 							</Title>
-							<Group>Horizontal</Group>
+							<Group>AlwaysHorizontal</Group>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаКонтактнаяИнформацияПолеДругаяИнформацияКонтрагентыРасширеннаяПодсказка" id="614"/>
 							<ChildItems>
 								<InputField name="КонтактнаяИнформацияПолеДругаяИнформацияКонтрагенты" id="140">
-									<UserVisible>
-										<xr:Common>false</xr:Common>
-									</UserVisible>
 									<TitleFont ref="style:NormalTextFont" kind="StyleItem"/>
 									<TitleLocation>Left</TitleLocation>
+									<Width>72</Width>
+									<Height>2</Height>
 									<ContextMenu name="КонтактнаяИнформацияПолеДругаяИнформацияКонтрагентыКонтекстноеМеню" id="141"/>
 									<ExtendedTooltip name="КонтактнаяИнформацияПолеДругаяИнформацияКонтрагентыРасширеннаяПодсказка" id="240"/>
 								</InputField>
@@ -1914,7 +2022,7 @@
 							<ContextMenu name="ФИООсновноеКонтактноеЛицоКонтекстноеМеню" id="880"/>
 							<ExtendedTooltip name="ФИООсновноеКонтактноеЛицоРасширеннаяПодсказка" id="881"/>
 							<Events>
-								<Event name="AutoComplete" callType="After">иб_ФИООсновноеКонтактноеЛицоАвтоПодборПосле</Event>
+								<Event name="AutoComplete" callType="After">ДБ_ФИООсновноеКонтактноеЛицоАвтоПодборПосле</Event>
 							</Events>
 						</InputField>
 						<InputField name="ДолжностьОсновноеКонтактноеЛицо" id="876">
@@ -1966,6 +2074,7 @@
 			<ExtendedTooltip name="ГруппаДополнительнаяИнформацияРасширеннаяПодсказка" id="241"/>
 			<ChildItems>
 				<InputField name="ДополнительнаяИнформация" id="70">
+					<DataPath>Объект.ДополнительнаяИнформация</DataPath>
 					<TitleLocation>None</TitleLocation>
 					<ContextMenu name="ДополнительнаяИнформацияКонтекстноеМеню" id="71"/>
 					<ExtendedTooltip name="ДополнительнаяИнформацияExtendedTooltip" id="242"/>
@@ -1989,27 +2098,20 @@
 		</UsualGroup>
 	</ChildItems>
 	<Attributes>
-		<Attribute name="ИБ_ИспользоватьПодсказкуФИОDadata" id="1000001">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>И б использовать подсказку ФИОDadata</v8:content>
-				</v8:item>
-			</Title>
+		<Attribute name="ДБ_ИспользоватьПодсказкуDadata" id="1000002">
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ИБ_ИспользоватьПодсказкуEmailDadata" id="1000002">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>И б использовать подсказку email dadata</v8:content>
-				</v8:item>
-			</Title>
+		<Attribute name="Объект" id="1000003">
 			<Type>
-				<v8:Type>xs:boolean</v8:Type>
+				<v8:Type>cfg:CatalogObject.Контрагенты</v8:Type>
 			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.УдалитьЮрФизЛицо</Field>
+			</UseAlways>
 		</Attribute>
 	</Attributes>
 	<Commands>
@@ -2030,6 +2132,10 @@
 		</Command>
 	</Commands>
 	<BaseForm version="2.15">
+		<CommandSet>
+			<ExcludedCommand>WriteAndClose</ExcludedCommand>
+		</CommandSet>
+		<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 			<Autofill>false</Autofill>
 			<ChildItems>
@@ -2111,6 +2217,7 @@
 								<Button name="ОбщаяКомандаПрисоединенныеФайлы" id="1087">
 									<Type>CommandBarButton</Type>
 									<CommandName>0</CommandName>
+									<DataPath>Объект.Ref</DataPath>
 									<ExtendedTooltip name="ОбщаяКомандаПрисоединенныеФайлыРасширеннаяПодсказка" id="1088"/>
 								</Button>
 							</ChildItems>
@@ -2127,6 +2234,7 @@
 								<Button name="ФормаДокументСправкиСПАРКРискиСправкиСПАРКРискиПоКонтрагенту" id="805">
 									<Type>CommandBarButton</Type>
 									<CommandName>0</CommandName>
+									<DataPath>Объект.Ref</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -2138,6 +2246,7 @@
 								<Button name="ФормаСправочникКонтрагентыВебВерсияСПАРК" id="807">
 									<Type>CommandBarButton</Type>
 									<CommandName>0</CommandName>
+									<DataPath>Объект.Ref</DataPath>
 									<ExtendedTooltip name="ФормаСправочникКонтрагентыВебВерсияСПАРКРасширеннаяПодсказка" id="808"/>
 								</Button>
 							</ChildItems>
@@ -2384,6 +2493,7 @@
 										<ExtendedTooltip name="ВидExtendedTooltip" id="165"/>
 									</InputField>
 									<InputField name="Код" id="4">
+										<DataPath>Объект.Code</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -2432,6 +2542,7 @@
 										<ExtendedTooltip name="ГруппаНаименованиеПолноеРасширеннаяПодсказка" id="1055"/>
 										<ChildItems>
 											<InputField name="НаименованиеПолное" id="1056">
+												<DataPath>Объект.НаименованиеПолное</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2493,6 +2604,7 @@
 										<ExtendedTooltip name="ГруппаНаименованиеРасширеннаяПодсказка" id="1050"/>
 										<ChildItems>
 											<InputField name="Наименование" id="1051">
+												<DataPath>Объект.Description</DataPath>
 												<ToolTip>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2517,6 +2629,7 @@
 								</ChildItems>
 							</UsualGroup>
 							<InputField name="Родитель" id="27">
+								<DataPath>Объект.Parent</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -2530,6 +2643,7 @@
 								<ExtendedTooltip name="РодительExtendedTooltip" id="164"/>
 							</InputField>
 							<InputField name="СтранаРегистрации" id="373">
+								<DataPath>Объект.СтранаРегистрации</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -2549,6 +2663,7 @@
 								<ExtendedTooltip name="СтранаРегистрацииРасширеннаяПодсказка" id="375"/>
 							</InputField>
 							<InputField name="ГоловнойКонтрагент" id="159">
+								<DataPath>Объект.ГоловнойКонтрагент</DataPath>
 								<HorizontalStretch>true</HorizontalStretch>
 								<ContextMenu name="ГоловнойКонтрагентКонтекстноеМеню" id="160"/>
 								<ExtendedTooltip name="ГоловнойКонтрагентExtendedTooltip" id="177"/>
@@ -2568,6 +2683,7 @@
 								<ExtendedTooltip name="ГруппаГосударственныйОрганРасширеннаяПодсказка" id="396"/>
 								<ChildItems>
 									<InputField name="ВидГосударственногоОргана" id="397">
+										<DataPath>Объект.ВидГосударственногоОргана</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -2580,6 +2696,7 @@
 										<ExtendedTooltip name="ВидГосударственногоОрганаРасширеннаяПодсказка" id="399"/>
 									</InputField>
 									<InputField name="КодГосударственногоОргана" id="400">
+										<DataPath>Объект.КодГосударственногоОргана</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -2594,6 +2711,7 @@
 								</ChildItems>
 							</UsualGroup>
 							<InputField name="НалоговыйНомер" id="444">
+								<DataPath>Объект.НалоговыйНомер</DataPath>
 								<ToolTip>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -2632,6 +2750,7 @@
 								<ExtendedTooltip name="ГруппаИННРасширеннаяПодсказка" id="172"/>
 								<ChildItems>
 									<InputField name="ИНН" id="157">
+										<DataPath>Объект.ИНН</DataPath>
 										<Width>17</Width>
 										<HorizontalStretch>false</HorizontalStretch>
 										<InputHint>
@@ -2682,6 +2801,7 @@
 								<ExtendedTooltip name="ГруппаКППРасширеннаяПодсказка" id="346"/>
 								<ChildItems>
 									<InputField name="КПП" id="14">
+										<DataPath>Объект.КПП</DataPath>
 										<Width>17</Width>
 										<InputHint>
 											<v8:item>
@@ -2733,6 +2853,7 @@
 								<ExtendedTooltip name="НадписьПояснениеПроверкиДублейФНСРасширеннаяПодсказка" id="596"/>
 							</LabelField>
 							<InputField name="КодПоОКПО" id="25">
+								<DataPath>Объект.КодПоОКПО</DataPath>
 								<UserVisible>
 									<xr:Common>false</xr:Common>
 								</UserVisible>
@@ -2740,6 +2861,7 @@
 								<ExtendedTooltip name="КодПоОКПОExtendedTooltip" id="180"/>
 							</InputField>
 							<InputField name="РегистрационныйНомер" id="376">
+								<DataPath>Объект.РегистрационныйНомер</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -2773,16 +2895,19 @@
 								<ExtendedTooltip name="ГруппаРегистрацияКакИПРасширеннаяПодсказка" id="404"/>
 								<ChildItems>
 									<InputField name="СвидетельствоСерияНомер" id="405">
+										<DataPath>Объект.СвидетельствоСерияНомер</DataPath>
 										<ContextMenu name="СвидетельствоСерияНомерКонтекстноеМеню" id="406"/>
 										<ExtendedTooltip name="СвидетельствоСерияНомерРасширеннаяПодсказка" id="407"/>
 									</InputField>
 									<InputField name="СвидетельствоДатаВыдачи" id="408">
+										<DataPath>Объект.СвидетельствоДатаВыдачи</DataPath>
 										<ContextMenu name="СвидетельствоДатаВыдачиКонтекстноеМеню" id="409"/>
 										<ExtendedTooltip name="СвидетельствоДатаВыдачиРасширеннаяПодсказка" id="410"/>
 									</InputField>
 								</ChildItems>
 							</UsualGroup>
 							<InputField name="ДокументУдостоверяющийЛичность" id="21">
+								<DataPath>Объект.ДокументУдостоверяющийЛичность</DataPath>
 								<InputHint>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -2793,6 +2918,7 @@
 								<ExtendedTooltip name="ДокументУдостоверяющийЛичностьExtendedTooltip" id="183"/>
 							</InputField>
 							<InputField name="Комментарий" id="53">
+								<DataPath>Объект.Комментарий</DataPath>
 								<TitleLocation>Left</TitleLocation>
 								<Width>25</Width>
 								<ContextMenu name="КомментарийКонтекстноеМеню" id="54"/>
@@ -3789,19 +3915,49 @@
 										<v8:content>Телефон</v8:content>
 									</v8:item>
 								</Title>
-								<Group>Horizontal</Group>
+								<Group>AlwaysHorizontal</Group>
 								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаКонтактнаяИнформацияПолеТелефонКонтрагентаРасширеннаяПодсказка" id="598"/>
 								<ChildItems>
-									<InputField name="КонтактнаяИнформацияПолеТелефонКонтрагента" id="134">
-										<Width>25</Width>
-										<HorizontalStretch>false</HorizontalStretch>
-										<ChoiceButton>true</ChoiceButton>
-										<ContextMenu name="КонтактнаяИнформацияПолеТелефонКонтрагентаКонтекстноеМеню" id="135"/>
-										<ExtendedTooltip name="КонтактнаяИнформацияПолеТелефонКонтрагентаРасширеннаяПодсказка" id="237"/>
-									</InputField>
+									<UsualGroup name="ГруппаКомментарийКонтактнаяИнформацияПолеТелефонКонтрагента" id="1089">
+										<EnableContentChange>true</EnableContentChange>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Телефон, комментарий</v8:content>
+											</v8:item>
+										</Title>
+										<Group>AlwaysHorizontal</Group>
+										<Behavior>Usual</Behavior>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ГруппаКомментарийКонтактнаяИнформацияПолеТелефонКонтрагентаРасширеннаяПодсказка" id="1090"/>
+										<ChildItems>
+											<InputField name="КонтактнаяИнформацияПолеТелефонКонтрагента" id="1113">
+												<Width>40</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="КонтактнаяИнформацияПолеТелефонКонтрагентаКонтекстноеМеню" id="1114"/>
+												<ExtendedTooltip name="КонтактнаяИнформацияПолеТелефонКонтрагентаРасширеннаяПодсказка" id="1115"/>
+											</InputField>
+											<InputField name="КомментарийКонтактнаяИнформацияПолеТелефонКонтрагента" id="1094">
+												<TitleLocation>None</TitleLocation>
+												<Width>30</Width>
+												<AutoMaxWidth>false</AutoMaxWidth>
+												<MaxWidth>35</MaxWidth>
+												<HorizontalStretch>false</HorizontalStretch>
+												<InputHint>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Примечание</v8:content>
+													</v8:item>
+												</InputHint>
+												<ContextMenu name="КомментарийКонтактнаяИнформацияПолеТелефонКонтрагентаКонтекстноеМеню" id="1095"/>
+												<ExtendedTooltip name="КомментарийКонтактнаяИнформацияПолеТелефонКонтрагентаРасширеннаяПодсказка" id="1096"/>
+											</InputField>
+										</ChildItems>
+									</UsualGroup>
 									<Button name="КомандаКонтактнаяИнформацияПолеТелефонКонтрагента" id="527">
 										<Type>UsualButton</Type>
 										<CommandName>0</CommandName>
@@ -3817,21 +3973,49 @@
 										<v8:content>Факс</v8:content>
 									</v8:item>
 								</Title>
-								<Group>Horizontal</Group>
+								<Group>AlwaysHorizontal</Group>
 								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаКонтактнаяИнформацияПолеФаксКонтрагентыРасширеннаяПодсказка" id="600"/>
 								<ChildItems>
-									<InputField name="КонтактнаяИнформацияПолеФаксКонтрагенты" id="136">
-										<UserVisible>
-											<xr:Common>false</xr:Common>
-										</UserVisible>
-										<Width>25</Width>
-										<HorizontalStretch>false</HorizontalStretch>
-										<ContextMenu name="КонтактнаяИнформацияПолеФаксКонтрагентыКонтекстноеМеню" id="137"/>
-										<ExtendedTooltip name="КонтактнаяИнформацияПолеФаксКонтрагентыРасширеннаяПодсказка" id="238"/>
-									</InputField>
+									<UsualGroup name="ГруппаКомментарийКонтактнаяИнформацияПолеФаксКонтрагенты" id="1097">
+										<EnableContentChange>true</EnableContentChange>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Факс, комментарий</v8:content>
+											</v8:item>
+										</Title>
+										<Group>AlwaysHorizontal</Group>
+										<Behavior>Usual</Behavior>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ГруппаКомментарийКонтактнаяИнформацияПолеФаксКонтрагентыРасширеннаяПодсказка" id="1098"/>
+										<ChildItems>
+											<InputField name="КонтактнаяИнформацияПолеФаксКонтрагенты" id="1116">
+												<Width>40</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="КонтактнаяИнформацияПолеФаксКонтрагентыКонтекстноеМеню" id="1117"/>
+												<ExtendedTooltip name="КонтактнаяИнформацияПолеФаксКонтрагентыРасширеннаяПодсказка" id="1118"/>
+											</InputField>
+											<InputField name="КомментарийКонтактнаяИнформацияПолеФаксКонтрагенты" id="1102">
+												<TitleLocation>None</TitleLocation>
+												<Width>30</Width>
+												<AutoMaxWidth>false</AutoMaxWidth>
+												<MaxWidth>35</MaxWidth>
+												<HorizontalStretch>false</HorizontalStretch>
+												<InputHint>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Примечание</v8:content>
+													</v8:item>
+												</InputHint>
+												<ContextMenu name="КомментарийКонтактнаяИнформацияПолеФаксКонтрагентыКонтекстноеМеню" id="1103"/>
+												<ExtendedTooltip name="КомментарийКонтактнаяИнформацияПолеФаксКонтрагентыРасширеннаяПодсказка" id="1104"/>
+											</InputField>
+										</ChildItems>
+									</UsualGroup>
 								</ChildItems>
 							</UsualGroup>
 							<UsualGroup name="ГруппаКонтактнаяИнформацияПолеEmailКонтрагенты" id="606">
@@ -3842,24 +4026,49 @@
 										<v8:content>Группа контактная информация поле email контрагенты</v8:content>
 									</v8:item>
 								</Title>
-								<ToolTip>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Группа контактная информация поле email контрагенты</v8:content>
-									</v8:item>
-								</ToolTip>
-								<Group>Horizontal</Group>
+								<Group>AlwaysHorizontal</Group>
 								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаКонтактнаяИнформацияПолеEmailКонтрагентыРасширеннаяПодсказка" id="607"/>
 								<ChildItems>
-									<InputField name="КонтактнаяИнформацияПолеEmailКонтрагенты" id="138">
-										<Width>25</Width>
-										<HorizontalStretch>false</HorizontalStretch>
-										<ContextMenu name="КонтактнаяИнформацияПолеEmailКонтрагентыКонтекстноеМеню" id="139"/>
-										<ExtendedTooltip name="КонтактнаяИнформацияПолеEmailКонтрагентыРасширеннаяПодсказка" id="239"/>
-									</InputField>
+									<UsualGroup name="ГруппаКомментарийКонтактнаяИнформацияПолеEmailКонтрагенты" id="1105">
+										<EnableContentChange>true</EnableContentChange>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>E-mail, комментарий</v8:content>
+											</v8:item>
+										</Title>
+										<Group>AlwaysHorizontal</Group>
+										<Behavior>Usual</Behavior>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ГруппаКомментарийКонтактнаяИнформацияПолеEmailКонтрагентыРасширеннаяПодсказка" id="1106"/>
+										<ChildItems>
+											<InputField name="КонтактнаяИнформацияПолеEmailКонтрагенты" id="138">
+												<Width>40</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="КонтактнаяИнформацияПолеEmailКонтрагентыКонтекстноеМеню" id="139"/>
+												<ExtendedTooltip name="КонтактнаяИнформацияПолеEmailКонтрагентыРасширеннаяПодсказка" id="239"/>
+											</InputField>
+											<InputField name="КомментарийКонтактнаяИнформацияПолеEmailКонтрагенты" id="1110">
+												<TitleLocation>None</TitleLocation>
+												<Width>30</Width>
+												<AutoMaxWidth>false</AutoMaxWidth>
+												<MaxWidth>35</MaxWidth>
+												<HorizontalStretch>false</HorizontalStretch>
+												<InputHint>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Примечание</v8:content>
+													</v8:item>
+												</InputHint>
+												<ContextMenu name="КомментарийКонтактнаяИнформацияПолеEmailКонтрагентыКонтекстноеМеню" id="1111"/>
+												<ExtendedTooltip name="КомментарийКонтактнаяИнформацияПолеEmailКонтрагентыРасширеннаяПодсказка" id="1112"/>
+											</InputField>
+										</ChildItems>
+									</UsualGroup>
 									<Button name="КомандаКонтактнаяИнформацияПолеEmailКонтрагенты" id="486">
 										<Type>UsualButton</Type>
 										<CommandName>0</CommandName>
@@ -3868,6 +4077,9 @@
 								</ChildItems>
 							</UsualGroup>
 							<UsualGroup name="ГруппаКонтактнаяИнформацияПолеДругаяИнформацияКонтрагенты" id="613">
+								<UserVisible>
+									<xr:Common>false</xr:Common>
+								</UserVisible>
 								<EnableContentChange>true</EnableContentChange>
 								<Title>
 									<v8:item>
@@ -3875,18 +4087,17 @@
 										<v8:content>Другая информация</v8:content>
 									</v8:item>
 								</Title>
-								<Group>Horizontal</Group>
+								<Group>AlwaysHorizontal</Group>
 								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаКонтактнаяИнформацияПолеДругаяИнформацияКонтрагентыРасширеннаяПодсказка" id="614"/>
 								<ChildItems>
 									<InputField name="КонтактнаяИнформацияПолеДругаяИнформацияКонтрагенты" id="140">
-										<UserVisible>
-											<xr:Common>false</xr:Common>
-										</UserVisible>
 										<TitleFont ref="style:NormalTextFont" kind="StyleItem"/>
 										<TitleLocation>Left</TitleLocation>
+										<Width>72</Width>
+										<Height>2</Height>
 										<ContextMenu name="КонтактнаяИнформацияПолеДругаяИнформацияКонтрагентыКонтекстноеМеню" id="141"/>
 										<ExtendedTooltip name="КонтактнаяИнформацияПолеДругаяИнформацияКонтрагентыРасширеннаяПодсказка" id="240"/>
 									</InputField>
@@ -3976,6 +4187,7 @@
 				<ExtendedTooltip name="ГруппаДополнительнаяИнформацияРасширеннаяПодсказка" id="241"/>
 				<ChildItems>
 					<InputField name="ДополнительнаяИнформация" id="70">
+						<DataPath>Объект.ДополнительнаяИнформация</DataPath>
 						<TitleLocation>None</TitleLocation>
 						<ContextMenu name="ДополнительнаяИнформацияКонтекстноеМеню" id="71"/>
 						<ExtendedTooltip name="ДополнительнаяИнформацияExtendedTooltip" id="242"/>
@@ -3998,6 +4210,17 @@
 				<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="244"/>
 			</UsualGroup>
 		</ChildItems>
-		<Attributes/>
+		<Attributes>
+			<Attribute name="Объект" id="1000003">
+				<Type>
+					<v8:Type>cfg:CatalogObject.Контрагенты</v8:Type>
+				</Type>
+				<MainAttribute>true</MainAttribute>
+				<SavedData>true</SavedData>
+				<UseAlways>
+					<Field>Объект.УдалитьЮрФизЛицо</Field>
+				</UseAlways>
+			</Attribute>
+		</Attributes>
 	</BaseForm>
 </Form>

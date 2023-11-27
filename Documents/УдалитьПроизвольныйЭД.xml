@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Document uuid="bd7bd71f-0258-4b7f-a65d-b69b728eb0b4">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.УдалитьПроизвольныйЭД" category="Object">
+				<xr:TypeId>3cd644e1-b97d-4f59-8ff5-de7c4631db01</xr:TypeId>
+				<xr:ValueId>2cef35d1-1d2d-4231-8ae9-314596596b7d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.УдалитьПроизвольныйЭД" category="Ref">
+				<xr:TypeId>87d17e34-43bb-4d68-9226-baec3cbbe052</xr:TypeId>
+				<xr:ValueId>aa4fc429-fb02-4209-9200-fd4f38b589a6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.УдалитьПроизвольныйЭД" category="Selection">
+				<xr:TypeId>171f8a49-9984-4a57-afd7-898b7614d343</xr:TypeId>
+				<xr:ValueId>d3affc27-8184-41be-b793-fe4ab236b9f2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.УдалитьПроизвольныйЭД" category="List">
+				<xr:TypeId>34442abb-dde5-47ca-a382-0b317b29b6c4</xr:TypeId>
+				<xr:ValueId>031a0751-38e0-4941-a999-b772c8b111d4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.УдалитьПроизвольныйЭД" category="Manager">
+				<xr:TypeId>098d4347-6225-4c44-b9ed-f9b5b9f9d586</xr:TypeId>
+				<xr:ValueId>f17b1023-c16f-4ec1-a8a9-b3941cc0455b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>УдалитьПроизвольныйЭД</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>38b773d7-0997-459e-9f6f-9da668377e7a</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

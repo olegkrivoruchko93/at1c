@@ -8,7 +8,7 @@
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
 	<Events>
-		<Event name="AfterWrite" callType="After">иб_ПослеЗаписиПосле</Event>
+		<Event name="AfterWrite" callType="After">ДБ_ПослеЗаписиПосле</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаДокументСПодсказками" id="714">
@@ -1865,47 +1865,6 @@
 										</UsualGroup>
 									</ChildItems>
 								</UsualGroup>
-							</ChildItems>
-						</UsualGroup>
-						<UsualGroup name="ЗадайтеВопрос" id="794">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Задайте вопрос</v8:content>
-								</v8:item>
-							</Title>
-							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
-							<GroupVerticalAlign>Bottom</GroupVerticalAlign>
-							<Group>AlwaysHorizontal</Group>
-							<Behavior>Usual</Behavior>
-							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ЗадайтеВопросРасширеннаяПодсказка" id="795"/>
-							<ChildItems>
-								<LabelDecoration name="ЗадатьВопрос" id="796">
-									<Title formatted="false">
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Задайте вопрос</v8:content>
-										</v8:item>
-									</Title>
-									<GroupVerticalAlign>Center</GroupVerticalAlign>
-									<Hyperlink>true</Hyperlink>
-									<ContextMenu name="ЗадатьВопросКонтекстноеМеню" id="797"/>
-									<ExtendedTooltip name="ЗадатьВопросРасширеннаяПодсказка" id="798"/>
-								</LabelDecoration>
-								<PictureDecoration name="КартинкаКотУченый" id="799">
-									<Title formatted="false">
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Кот ученый</v8:content>
-										</v8:item>
-									</Title>
-									<GroupHorizontalAlign>Right</GroupHorizontalAlign>
-									<PictureSize>AutoSizeIgnoreScale</PictureSize>
-									<ContextMenu name="КартинкаКотУченыйКонтекстноеМеню" id="800"/>
-									<ExtendedTooltip name="КартинкаКотУченыйРасширеннаяПодсказка" id="801"/>
-								</PictureDecoration>
 							</ChildItems>
 						</UsualGroup>
 					</ChildItems>
@@ -3777,47 +3736,6 @@
 											</UsualGroup>
 										</ChildItems>
 									</UsualGroup>
-								</ChildItems>
-							</UsualGroup>
-							<UsualGroup name="ЗадайтеВопрос" id="794">
-								<Title>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Задайте вопрос</v8:content>
-									</v8:item>
-								</Title>
-								<GroupHorizontalAlign>Right</GroupHorizontalAlign>
-								<GroupVerticalAlign>Bottom</GroupVerticalAlign>
-								<Group>AlwaysHorizontal</Group>
-								<Behavior>Usual</Behavior>
-								<Representation>None</Representation>
-								<ShowTitle>false</ShowTitle>
-								<ExtendedTooltip name="ЗадайтеВопросРасширеннаяПодсказка" id="795"/>
-								<ChildItems>
-									<LabelDecoration name="ЗадатьВопрос" id="796">
-										<Title formatted="false">
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Задайте вопрос</v8:content>
-											</v8:item>
-										</Title>
-										<GroupVerticalAlign>Center</GroupVerticalAlign>
-										<Hyperlink>true</Hyperlink>
-										<ContextMenu name="ЗадатьВопросКонтекстноеМеню" id="797"/>
-										<ExtendedTooltip name="ЗадатьВопросРасширеннаяПодсказка" id="798"/>
-									</LabelDecoration>
-									<PictureDecoration name="КартинкаКотУченый" id="799">
-										<Title formatted="false">
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Кот ученый</v8:content>
-											</v8:item>
-										</Title>
-										<GroupHorizontalAlign>Right</GroupHorizontalAlign>
-										<PictureSize>AutoSizeIgnoreScale</PictureSize>
-										<ContextMenu name="КартинкаКотУченыйКонтекстноеМеню" id="800"/>
-										<ExtendedTooltip name="КартинкаКотУченыйРасширеннаяПодсказка" id="801"/>
-									</PictureDecoration>
 								</ChildItems>
 							</UsualGroup>
 						</ChildItems>

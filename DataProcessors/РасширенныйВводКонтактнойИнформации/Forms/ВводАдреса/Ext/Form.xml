@@ -32,7 +32,7 @@
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
 	<Events>
-		<Event name="OnCreateAtServer" callType="After">иб_ПриСозданииНаСервереПосле</Event>
+		<Event name="OnCreateAtServer" callType="After">ДБ_ПриСозданииНаСервереПосле</Event>
 	</Events>
 	<ChildItems>
 		<CommandBar name="ПанельКонтактнаяИнформация" id="547">
@@ -1055,7 +1055,7 @@
 											<ContextMenu name="ПредставлениеИностранногоАдресаКонтекстноеМеню" id="22"/>
 											<ExtendedTooltip name="ПредставлениеИностранногоАдресаExtendedTooltip" id="132"/>
 											<Events>
-												<Event name="AutoComplete" callType="After">иб_ПредставлениеИностранногоАдресаАвтоПодборПосле</Event>
+												<Event name="AutoComplete" callType="After">ДБ_ПредставлениеИностранногоАдресаАвтоПодборПосле</Event>
 											</Events>
 										</InputField>
 									</ChildItems>
@@ -1257,7 +1257,7 @@
 		</UsualGroup>
 	</ChildItems>
 	<Attributes>
-		<Attribute name="ИБ_ИспользоватьПодсказкуПоАдресамDadata" id="1000001">
+		<Attribute name="ДБ_ИспользоватьПодсказкуDadata" id="1000001">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>

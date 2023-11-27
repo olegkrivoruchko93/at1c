@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<DataProcessor uuid="482d82b1-a98c-4f05-b2ce-2d1a82b66b13">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ПанельАдминистрированияБСП" category="Object">
+				<xr:TypeId>adec1639-b773-4f52-aca6-425111555e70</xr:TypeId>
+				<xr:ValueId>72cd373b-7e52-44c0-83da-c3ad414f9809</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ПанельАдминистрированияБСП" category="Manager">
+				<xr:TypeId>f2aff276-ef9d-4d35-af6d-ac67d04e65a0</xr:TypeId>
+				<xr:ValueId>0e78414d-206e-46e4-8227-e1286e6d1c84</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПанельАдминистрированияБСП</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>66ef1631-277b-4c22-99d7-1434b4dbbb3f</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>Органайзер</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

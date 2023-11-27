@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Document uuid="49e26919-6bf6-4fe9-bbab-4ce3724d9bcb">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаявлениеОВвозеТоваров" category="Object">
+				<xr:TypeId>dca7e8a7-12e2-4967-9d13-a69a137c2d3f</xr:TypeId>
+				<xr:ValueId>9cbca06e-c68a-4ace-af3d-80d0b847dce0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаявлениеОВвозеТоваров" category="Ref">
+				<xr:TypeId>502db608-9826-43ec-b8d2-5592ce2c5867</xr:TypeId>
+				<xr:ValueId>0c35ff21-ad39-4b86-bd52-303579917799</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаявлениеОВвозеТоваров" category="Selection">
+				<xr:TypeId>8629c285-45d5-47ed-9af4-f48852abc7f3</xr:TypeId>
+				<xr:ValueId>66e4541a-7893-48cd-b388-cbd635a0722f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаявлениеОВвозеТоваров" category="List">
+				<xr:TypeId>b7c7c76b-49bd-4b56-9629-070498b39bac</xr:TypeId>
+				<xr:ValueId>28a28983-476f-49f5-9577-ca24dd4e8aa1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаявлениеОВвозеТоваров" category="Manager">
+				<xr:TypeId>05b80205-25bb-4cc4-9473-0814aef54398</xr:TypeId>
+				<xr:ValueId>f3a840ec-c490-432a-a765-7e78d77aa86c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаявлениеОВвозеТоваров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>fac34803-1f1c-472a-9092-fd09dc7a959a</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

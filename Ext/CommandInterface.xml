@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<SubsystemsVisibility>
+		<Subsystem name="2bdf8645-907c-4f0e-b75e-17b83fb4a021">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Subsystem>
+	</SubsystemsVisibility>
+	<SubsystemsOrder>
+		<Subsystem>Subsystem.Администрирование</Subsystem>
+		<Subsystem>5399e98e-7bf5-4749-9033-6642e223ca79</Subsystem>
+		<Subsystem>c9e8d051-8578-4536-b999-fa36744288a3</Subsystem>
+		<Subsystem>2bdf8645-907c-4f0e-b75e-17b83fb4a021</Subsystem>
+		<Subsystem>04651f27-4920-4ec5-822f-14e229147962</Subsystem>
+	</SubsystemsOrder>
+</CommandInterface>

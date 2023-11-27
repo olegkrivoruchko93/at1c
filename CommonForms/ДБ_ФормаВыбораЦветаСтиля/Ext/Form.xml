@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="УстановитьСтиль" id="57">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.УстановитьСтиль</CommandName>
+				<ExtendedTooltip name="УстановитьСтильРасширеннаяПодсказка" id="58"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="Стили" id="41">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Стили</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Стили</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Width>60</Width>
+			<Height>20</Height>
+			<PagesRepresentation>TabsOnLeftHorizontal</PagesRepresentation>
+			<ExtendedTooltip name="СтилиРасширеннаяПодсказка" id="42"/>
+			<ChildItems>
+				<Page name="ДБ_Зеленый" id="55">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Зеленый</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Д б зеленый</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ДБ_ЗеленыйРасширеннаяПодсказка" id="56"/>
+					<ChildItems>
+						<PictureField name="Зеленый" id="3">
+							<DataPath>Зеленый</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<TitleLocation>None</TitleLocation>
+							<Width>36</Width>
+							<Height>6</Height>
+							<PictureSize>Proportionally</PictureSize>
+							<Border width="1">
+								<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+							</Border>
+							<ContextMenu name="ЗеленыйКонтекстноеМеню" id="4"/>
+							<ExtendedTooltip name="ЗеленыйРасширеннаяПодсказка" id="5"/>
+						</PictureField>
+					</ChildItems>
+				</Page>
+				<Page name="ДБ_Античный" id="53">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Античный</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Д б античный</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ДБ_АнтичныйРасширеннаяПодсказка" id="54"/>
+					<ChildItems>
+						<PictureField name="Античный" id="33">
+							<DataPath>Античный</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<TitleLocation>None</TitleLocation>
+							<Width>36</Width>
+							<Height>6</Height>
+							<PictureSize>Proportionally</PictureSize>
+							<Border width="1">
+								<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+							</Border>
+							<ContextMenu name="АнтичныйКонтекстноеМеню" id="34"/>
+							<ExtendedTooltip name="АнтичныйРасширеннаяПодсказка" id="35"/>
+						</PictureField>
+					</ChildItems>
+				</Page>
+				<Page name="ДБ_Классический" id="47">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Классический</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Д б классический</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ДБ_КлассическийРасширеннаяПодсказка" id="48"/>
+					<ChildItems>
+						<PictureField name="Классический" id="21">
+							<DataPath>Классический</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<TitleLocation>None</TitleLocation>
+							<Width>36</Width>
+							<Height>6</Height>
+							<PictureSize>Proportionally</PictureSize>
+							<Border width="1">
+								<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+							</Border>
+							<ContextMenu name="КлассическийКонтекстноеМеню" id="22"/>
+							<ExtendedTooltip name="КлассическийРасширеннаяПодсказка" id="23"/>
+						</PictureField>
+					</ChildItems>
+				</Page>
+				<Page name="ДБ_Молодежный" id="51">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Молодежный</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Д б молодежный</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ДБ_МолодежныйРасширеннаяПодсказка" id="52"/>
+					<ChildItems>
+						<PictureField name="Молодежный" id="24">
+							<DataPath>Молодежный</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<TitleLocation>None</TitleLocation>
+							<Width>36</Width>
+							<Height>6</Height>
+							<PictureSize>Proportionally</PictureSize>
+							<Border width="1">
+								<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+							</Border>
+							<ContextMenu name="МолодежныйКонтекстноеМеню" id="25"/>
+							<ExtendedTooltip name="МолодежныйРасширеннаяПодсказка" id="26"/>
+						</PictureField>
+					</ChildItems>
+				</Page>
+				<Page name="ДБ_Нежный" id="45">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Нежный</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Д б нежный</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ДБ_НежныйРасширеннаяПодсказка" id="46"/>
+					<ChildItems>
+						<PictureField name="Нежный" id="27">
+							<DataPath>Нежный</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<TitleLocation>None</TitleLocation>
+							<Width>36</Width>
+							<Height>6</Height>
+							<PictureSize>Proportionally</PictureSize>
+							<Border width="1">
+								<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+							</Border>
+							<ContextMenu name="НежныйКонтекстноеМеню" id="28"/>
+							<ExtendedTooltip name="НежныйРасширеннаяПодсказка" id="29"/>
+						</PictureField>
+					</ChildItems>
+				</Page>
+				<Page name="ДБ_Розовый" id="49">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Розовый</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Д б розовый</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ДБ_РозовыйРасширеннаяПодсказка" id="50"/>
+					<ChildItems>
+						<PictureField name="Розовый" id="30">
+							<DataPath>Розовый</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<TitleLocation>None</TitleLocation>
+							<Width>36</Width>
+							<Height>6</Height>
+							<PictureSize>Proportionally</PictureSize>
+							<Border width="1">
+								<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+							</Border>
+							<ContextMenu name="РозовыйКонтекстноеМеню" id="31"/>
+							<ExtendedTooltip name="РозовыйРасширеннаяПодсказка" id="32"/>
+						</PictureField>
+					</ChildItems>
+				</Page>
+				<Page name="ДБ_Синий" id="43">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Синий</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Д б синий</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ДБ_СинийРасширеннаяПодсказка" id="44"/>
+					<ChildItems>
+						<PictureField name="Синий" id="38">
+							<DataPath>Синий</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<TitleLocation>None</TitleLocation>
+							<Width>36</Width>
+							<Height>6</Height>
+							<PictureSize>Proportionally</PictureSize>
+							<Border width="1">
+								<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+							</Border>
+							<ContextMenu name="СинийКонтекстноеМеню" id="39"/>
+							<ExtendedTooltip name="СинийРасширеннаяПодсказка" id="40"/>
+						</PictureField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Античный" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Античный</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8ui:Picture</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Зеленый" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Картинка зеленый</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8ui:Picture</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Классический" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Классический</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8ui:Picture</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Молодежный" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Молодежный</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8ui:Picture</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Нежный" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нежный</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8ui:Picture</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Розовый" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Розовый</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8ui:Picture</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Синий" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Синий</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8ui:Picture</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="УстановитьСтиль" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить стиль</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить стиль</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УстановитьСтиль</Action>
+		</Command>
+	</Commands>
+</Form>

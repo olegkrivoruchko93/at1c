@@ -31,6 +31,7 @@
 		</Properties>
 		<ChildObjects>
 			<Form>ФормаЭлемента</Form>
+			<Form>НалогНаДоходы</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

@@ -7,7 +7,9 @@
 			<Name>Администрирование</Name>
 			<Comment/>
 			<ExtendedConfigurationObject>490f930d-8b36-419e-8166-9ff62b9bf304</ExtendedConfigurationObject>
-			<Content/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ДБ_ПроверкаДублей</xr:Item>
+			</Content>
 		</Properties>
 		<ChildObjects>
 			<Subsystem>НастройкиПрограммы</Subsystem>

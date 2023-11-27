@@ -43,7 +43,7 @@
 			<Comment/>
 			<ConfigurationExtensionPurpose>AddOn</ConfigurationExtensionPurpose>
 			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
-			<NamePrefix>иб_</NamePrefix>
+			<NamePrefix>ДБ_</NamePrefix>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_17</ConfigurationExtensionCompatibilityMode>
 			<DefaultRunMode>ManagedApplication</DefaultRunMode>
 			<UsePurposes>
@@ -51,13 +51,18 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles>
-				<xr:Item xsi:type="xr:MDObjectRef">Role.ИБ_ОсновнаяРоль</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДБ_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
-			<Version>1.0.10</Version>
+			<Version>1.0.15</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
-			<DetailedInformation/>
+			<DetailedInformation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>https://infostart.ru/1c/tools/1913698/</v8:content>
+				</v8:item>
+			</DetailedInformation>
 			<Copyright/>
 			<VendorInformationAddress/>
 			<ConfigurationInformationAddress/>
@@ -65,8 +70,11 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<Subsystem>Покупки</Subsystem>
 			<Subsystem>Администрирование</Subsystem>
+			<Subsystem>СтандартныеПодсистемы</Subsystem>
+			<Subsystem>ДБ_Органайзер</Subsystem>
+			<Subsystem>ДБ_ПроверкаДублей</Subsystem>
+			<Subsystem>ДБ_DaData</Subsystem>
 			<StyleItem>БыстрыеОтборыФонГруппы</StyleItem>
 			<StyleItem>ГруппаВариантовОтчетовВажнаяШрифт</StyleItem>
 			<StyleItem>ПоясняющийТекст</StyleItem>
@@ -86,7 +94,13 @@
 			<StyleItem>СодержаниеУслугиШрифт</StyleItem>
 			<StyleItem>ДосьеГиперссылкаЦвет</StyleItem>
 			<StyleItem>ЦветФонаНекорректногоКонтрагента</StyleItem>
-			<CommonPicture>иб_DaData</CommonPicture>
+			<Style>ДБ_Зеленый</Style>
+			<Style>ДБ_Античный</Style>
+			<Style>ДБ_Молодежный</Style>
+			<Style>ДБ_Классический</Style>
+			<Style>ДБ_Розовый</Style>
+			<Style>ДБ_Нежный</Style>
+			<Style>ДБ_Синий</Style>
 			<CommonPicture>РазблокироватьФормуОбъекта</CommonPicture>
 			<CommonPicture>Скрепка</CommonPicture>
 			<CommonPicture>ЗаполнитьФорму</CommonPicture>
@@ -97,19 +111,61 @@
 			<CommonPicture>СостояниеПроверкиРНПТ</CommonPicture>
 			<CommonPicture>ОчиститьЗначение</CommonPicture>
 			<CommonPicture>НекорректныйКонтрагент</CommonPicture>
-			<Role>ИБ_ОсновнаяРоль</Role>
-			<CommonModule>ИБ_DaData</CommonModule>
-			<CommonModule>ИнформацияПриЗапускеПереопределяемый</CommonModule>
-			<Constant>ИБ_ИспользоватьЗаполнениеКонтрагентаDadata</Constant>
-			<Constant>ИБ_ИспользоватьПодсказкуПоАдресамDadata</Constant>
-			<Constant>ИБ_ИспользоватьПодсказкуФИОDadata</Constant>
-			<Constant>ИБ_ИспользоватьПодсказкуEmailDadata</Constant>
-			<Constant>ИБ_ЗапретДублейДоговоров</Constant>
-			<Constant>ИБ_ЗапретДублейКонтрагентов</Constant>
-			<Constant>ИБ_ЗапретДублейНоменклатуры</Constant>
-			<Constant>ИБ_ПроверятьВходящийНомерПоступлениеТоваровУслуг</Constant>
-			<Constant>ИБ_ОтключитьДополнительныеОкнаПриЗапуске</Constant>
-			<CommonForm>ИБ_ФормаКонстант</CommonForm>
+			<CommonPicture>КоллекцияНапоминания</CommonPicture>
+			<CommonPicture>Напоминание</CommonPicture>
+			<CommonPicture>Органайзер</CommonPicture>
+			<CommonPicture>Заметка</CommonPicture>
+			<CommonPicture>КоллекцияЗаметки</CommonPicture>
+			<CommonPicture>ДБ_Зеленый</CommonPicture>
+			<CommonPicture>ДБ_Античный</CommonPicture>
+			<CommonPicture>ДБ_Молодежный</CommonPicture>
+			<CommonPicture>ДБ_Классический</CommonPicture>
+			<CommonPicture>ДБ_Розовый</CommonPicture>
+			<CommonPicture>ДБ_Нежный</CommonPicture>
+			<CommonPicture>ДБ_Синий</CommonPicture>
+			<Role>ДБ_ОсновнаяРоль</Role>
+			<Role>ДобавлениеИзменениеНапоминаний</Role>
+			<Role>ДобавлениеИзменениеЗаметок</Role>
+			<CommonModule>ИнтеграцияПодсистемБСП</CommonModule>
+			<CommonModule>ИнтеграцияПодсистемБСПКлиент</CommonModule>
+			<CommonModule>ОбщегоНазначенияБП</CommonModule>
+			<CommonModule>ИнформацияПриЗапускеКлиент</CommonModule>
+			<CommonModule>ПодключаемыеКоманды</CommonModule>
+			<CommonModule>НапоминанияПользователя</CommonModule>
+			<CommonModule>НапоминанияПользователяВызовСервера</CommonModule>
+			<CommonModule>НапоминанияПользователяГлобальный</CommonModule>
+			<CommonModule>НапоминанияПользователяКлиент</CommonModule>
+			<CommonModule>НапоминанияПользователяКлиентСервер</CommonModule>
+			<CommonModule>НапоминанияПользователяПереопределяемый</CommonModule>
+			<CommonModule>НапоминанияПользователяСлужебный</CommonModule>
+			<CommonModule>ЗаметкиПользователя</CommonModule>
+			<CommonModule>ЗаметкиПользователяСлужебный</CommonModule>
+			<CommonModule>ДБ_ПроверкаДублей</CommonModule>
+			<CommonModule>ДБ_DaData</CommonModule>
+			<CommonModule>ДБ_ОбщийМодуль</CommonModule>
+			<EventSubscription>ПроверитьИзмененияДатВПредмете</EventSubscription>
+			<EventSubscription>УстановитьСнятьПометкуУдаленияЗаметок</EventSubscription>
+			<EventSubscription>УстановитьСтатусИзмененияПометкиУдаленияПользователя</EventSubscription>
+			<EventSubscription>ДБ_ПроверкаДублей</EventSubscription>
+			<FunctionalOption>ИспользоватьНапоминанияПользователя</FunctionalOption>
+			<FunctionalOption>ИспользоватьЗаметки</FunctionalOption>
+			<FunctionalOption>ДБ_ИспользоватьНастройкуСтиля</FunctionalOption>
+			<CommonCommand>Напомнить</CommonCommand>
+			<CommonCommand>МоиЗаметкиПоПредмету</CommonCommand>
+			<CommonCommand>СоздатьЗаметкуПоПредмету</CommonCommand>
+			<CommandGroup>Органайзер</CommandGroup>
+			<CommandGroup>Задачи</CommandGroup>
+			<Constant>ДБ_ИспользоватьПодсказкуDadata</Constant>
+			<Constant>ДБ_ИспользоватьПроверкуДублейСправочников</Constant>
+			<Constant>ДБ_ОтключитьДополнительныеОкнаПриЗапуске</Constant>
+			<Constant>ДБ_ПроверятьВходящийНомерПоступлениеТоваровУслуг</Constant>
+			<Constant>ДБ_ИспользоватьНастройкуСтиля</Constant>
+			<Constant>ДБ_УвеломлятьОЗавершенииСроковДействияСтатусовНалогоплательщиковНДФЛ</Constant>
+			<Constant>ИспользоватьНапоминанияПользователя</Constant>
+			<Constant>ИспользоватьЗаметки</Constant>
+			<CommonForm>ДБ_ФормаКонстант</CommonForm>
+			<CommonForm>ДБ_ФормаВыбораЦветаСтиля</CommonForm>
+			<CommonForm>ПерсональныеНастройки</CommonForm>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>Сотрудники</Catalog>
@@ -117,7 +173,40 @@
 			<Catalog>ДоговорыКонтрагентов</Catalog>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Номенклатура</Catalog>
+			<Catalog>Пользователи</Catalog>
+			<Catalog>СтраныМира</Catalog>
+			<Catalog>Заметки</Catalog>
+			<Catalog>ВидыНоменклатуры</Catalog>
+			<Catalog>ВнешниеПользователи</Catalog>
+			<Catalog>ДополнительныеОтчетыИОбработки</Catalog>
+			<Catalog>ИдентификаторыОбъектовМетаданных</Catalog>
+			<Catalog>НастройкиОнлайнОплат</Catalog>
+			<Catalog>НоменклатураКонтрагентов</Catalog>
+			<Catalog>НоменклатураПоставщиков</Catalog>
+			<Catalog>ОфлайнОборудование</Catalog>
+			<Catalog>ПодключаемоеОборудование</Catalog>
+			<Catalog>Склады</Catalog>
+			<Catalog>СтруктураПредприятия</Catalog>
+			<Catalog>УдалитьСоглашенияОбИспользованииЭД</Catalog>
+			<Catalog>Файлы</Catalog>
 			<Document>ПоступлениеТоваровУслуг</Document>
+			<Document>АвансовыйОтчет</Document>
+			<Document>ВозвратТоваровПоставщику</Document>
+			<Document>ЗаявлениеОВвозеТоваров</Document>
+			<Document>КорректировкаРеализации</Document>
+			<Document>ОтчетОРозничныхПродажах</Document>
+			<Document>ПеремещениеТоваров</Document>
+			<Document>ПриходныйКассовыйОрдер</Document>
+			<Document>РаспределениеНДС</Document>
+			<Document>РасходныйКассовыйОрдер</Document>
+			<Document>РеализацияТоваровУслуг</Document>
+			<Document>СчетФактураВыданный</Document>
+			<Document>УведомлениеОбОстаткахПрослеживаемыхТоваров</Document>
+			<Document>УведомлениеОВвозеПрослеживаемыхТоваров</Document>
+			<Document>УведомлениеОПеремещенииПрослеживаемыхТоваров</Document>
+			<Document>УдалитьПроизвольныйЭД</Document>
+			<Document>УстановкаЦенНоменклатуры</Document>
+			<Document>НачислениеЗарплаты</Document>
 			<Enum>ТипыКонтактнойИнформации</Enum>
 			<Enum>ВидыМестВыплатыЗарплаты</Enum>
 			<Enum>ПолФизическогоЛица</Enum>
@@ -125,9 +214,19 @@
 			<Enum>ОтражениеВУСН</Enum>
 			<Enum>СпособыУчетаНДС</Enum>
 			<Enum>СостоянияСуществованияКонтрагента</Enum>
+			<Enum>СпособыУстановкиВремениНапоминания</Enum>
+			<Enum>УдалитьЮрФизЛицо</Enum>
+			<Enum>ВидыГосударственныхОрганов</Enum>
+			<Enum>ЦветаЗаметок</Enum>
+			<Enum>ДБ_ДействиеПослеПроверкиДублей</Enum>
 			<Report>ЭкспрессПроверкаВеденияУчета</Report>
-			<DataProcessor>ИБ_Формирование</DataProcessor>
 			<DataProcessor>РасширенныйВводКонтактнойИнформации</DataProcessor>
+			<DataProcessor>ПанельАдминистрированияБСП</DataProcessor>
+			<DataProcessor>ДБ_ПроверкаДублей</DataProcessor>
+			<DataProcessor>ДБ_Формирование</DataProcessor>
+			<InformationRegister>НапоминанияПользователя</InformationRegister>
+			<InformationRegister>ДБ_НастройкиПроверкиДублей</InformationRegister>
+			<InformationRegister>ДБ_СрокДействияСтатусаФизическихЛицКакНалогоплательщиковНДФЛ</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
