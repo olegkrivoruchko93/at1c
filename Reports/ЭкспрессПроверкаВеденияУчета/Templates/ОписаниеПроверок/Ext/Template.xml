@@ -269,11 +269,11 @@
 						<beginRow>1</beginRow>
 						<beginRowOffset>1788</beginRowOffset>
 						<endRow>1</endRow>
-						<endRowOffset>51</endRowOffset>
+						<endRowOffset>50</endRowOffset>
 						<beginColumn>1</beginColumn>
-						<beginColumnOffset>21</beginColumnOffset>
+						<beginColumnOffset>22</beginColumnOffset>
 						<endColumn>2</endColumn>
-						<endColumnOffset>387</endColumnOffset>
+						<endColumnOffset>353</endColumnOffset>
 						<autoSize>true</autoSize>
 						<pictureSize>Stretch</pictureSize>
 					</note>
@@ -372,11 +372,11 @@
 						<beginRow>1</beginRow>
 						<beginRowOffset>84</beginRowOffset>
 						<endRow>1</endRow>
-						<endRowOffset>177</endRowOffset>
+						<endRowOffset>166</endRowOffset>
 						<beginColumn>1</beginColumn>
-						<beginColumnOffset>45</beginColumnOffset>
+						<beginColumnOffset>46</beginColumnOffset>
 						<endColumn>5</endColumn>
-						<endColumnOffset>444</endColumnOffset>
+						<endColumnOffset>420</endColumnOffset>
 						<autoSize>true</autoSize>
 						<pictureSize>Stretch</pictureSize>
 					</note>
@@ -6577,6 +6577,445 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Единый налоговый счет</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>18</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>1</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>18</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Проверка правильности операций по единому налоговому счету</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>18</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>18</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>18</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>18</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>18</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+				</c>
+			</c>
+			<c>
+				<i>11</i>
+				<c>
+					<f>0</f>
+					<tl/>
+				</c>
+			</c>
+			<c>
+				<i>13</i>
+				<c>
+					<f>19</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>58</index>
+		<row>
+			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Создание уведомлений ЕНС</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наличие уведомлений об исчисленных суммах налогов, авансовых платежей по налогам, сборов, страховых взносов</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Для всех исчисленных сумм налогов, авансовых платежей по налогам, сборов, страховых взносов созданы уведомления</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Не по всем исчисленным суммам налогов, авансовых платежей по налогам, сборам, страховым взносам созданы уведомления</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Начислены суммы налогов, авансовых платежей по налогам, сборам, страховым взносам, но уведомления по ним не созданы</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Для всех налогов, сборов, страховых взносов нужно создать уведомления</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>2023</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>11</i>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<i>13</i>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>59</index>
+		<row>
+			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Правильность сумм уведомлений ЕНС</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Суммы уведомлений об исчисленных суммах налогов, авансовых платежей по налогам, сборов, страховых взносов, соответствуют суммам, рассчитанным в программе</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма уведомления должна быть равна сумме налогов, авансовых платежей по налогам, сборов, страховых взносов, рассчитанных в программе</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обнаружены уведомления, в которых суммы налогов, авансовых платежей по налогам, сборов, страховых взносов, отличаются от сумм, рассчитанных в программе</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Суммы уведомлений скорректированы вручную, либо сумма налогов, авансовых платежей по налогам, сборам, страховым взносам изменились после создания уведомления</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Скорректируйте суммы в этих уведомлениях, если уведомления ещё не сданы. Если сданы, то создайте повторные с уточненной суммой и сдайте их в ФНС. Если декларация (расчет) за этот период уже сдана, то отправлять уведомления повторно не требуется.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>2023</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>11</i>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<i>13</i>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>60</index>
+		<row>
+			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отправка уведомлений ЕНС</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отправка в ФНС всех уведомлений об исчисленных суммах налогов, авансовых платежей по налогам, сборов, страховых взносов</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Все уведомления об исчисленных суммах налогов, авансовых платежей по налогам, сборов, страховых взносов отправлены в ФНС и по ним получен статус "Сдано"</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обнаружены уведомления об исчисленных суммах налогов, авансовых платежей по налогам, сборов, страховых взносов, у которых состояние отличается от "Сдано"</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>- Уведомления об исчисленных суммах налогов не отправлены в ФНС
+- Не изменен статус уведомления об исчисленных суммах налогов</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отправьте уведомление в ФНС, либо установите статус "Сдано" вручную</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>2023</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>11</i>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<i>13</i>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>61</index>
+		<row>
+			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
+			<formatIndex>17</formatIndex>
+			<c>
+				<c>
+					<f>18</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
 							<v8:content>Остатки на счетах бухгалтерского учета</v8:content>
 						</v8:item>
 					</tl>
@@ -6659,7 +7098,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>58</index>
+		<index>62</index>
 		<row>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 			<c>
@@ -6772,7 +7211,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>59</index>
+		<index>63</index>
 		<row>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 			<c>
@@ -6876,7 +7315,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>60</index>
+		<index>64</index>
 		<row>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 			<c>
@@ -6978,7 +7417,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>61</index>
+		<index>65</index>
 		<row>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 			<c>
@@ -7082,7 +7521,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>62</index>
+		<index>66</index>
 		<row>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 			<c>
@@ -7197,7 +7636,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>63</index>
+		<index>67</index>
 		<row>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 			<c>
@@ -7312,7 +7751,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>64</index>
+		<index>68</index>
 		<row>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 			<c>
@@ -7420,7 +7859,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>65</index>
+		<index>69</index>
 		<row>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 			<c>
@@ -7527,7 +7966,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>66</index>
+		<index>70</index>
 		<row>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 			<c>
@@ -7634,7 +8073,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>67</index>
+		<index>71</index>
 		<row>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 			<c>
@@ -7747,7 +8186,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>68</index>
+		<index>72</index>
 		<row>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 			<formatIndex>17</formatIndex>
@@ -7839,7 +8278,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>69</index>
+		<index>73</index>
 		<row>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 			<c>
@@ -7954,7 +8393,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>70</index>
+		<index>74</index>
 		<row>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 			<c>
@@ -8062,7 +8501,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>71</index>
+		<index>75</index>
 		<row>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 			<c>
@@ -8163,7 +8602,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>72</index>
+		<index>76</index>
 		<row>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 			<c>
@@ -8278,7 +8717,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>73</index>
+		<index>77</index>
 		<row>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 			<formatIndex>17</formatIndex>
@@ -8370,7 +8809,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>74</index>
+		<index>78</index>
 		<row>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 			<c>
@@ -8486,7 +8925,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>75</index>
+		<index>79</index>
 		<row>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 			<c>
@@ -8602,7 +9041,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>76</index>
+		<index>80</index>
 		<row>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 			<c>
@@ -8718,7 +9157,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>77</index>
+		<index>81</index>
 		<row>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 			<c>
@@ -8792,8 +9231,8 @@
 	</rowsItem>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>13</defaultFormatIndex>
-	<height>78</height>
-	<vgRows>78</vgRows>
+	<height>82</height>
+	<vgRows>82</vgRows>
 	<namedItem xsi:type="NamedItemCells">
 		<name>ВсеКосвРасходыРаспределены</name>
 		<area>
@@ -8864,8 +9303,8 @@
 		<name>ДублиДоговоров</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>76</beginRow>
-			<endRow>76</endRow>
+			<beginRow>80</beginRow>
+			<endRow>80</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -8874,8 +9313,8 @@
 		<name>ДублиКонтрагентов</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>75</beginRow>
-			<endRow>75</endRow>
+			<beginRow>79</beginRow>
+			<endRow>79</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -8884,8 +9323,8 @@
 		<name>ДублиНоменклатуры</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>74</beginRow>
-			<endRow>74</endRow>
+			<beginRow>78</beginRow>
+			<endRow>78</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -8939,7 +9378,7 @@
 		<area>
 			<type>Rectangle</type>
 			<beginRow>1</beginRow>
-			<endRow>77</endRow>
+			<endRow>81</endRow>
 			<beginColumn>5</beginColumn>
 			<endColumn>5</endColumn>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
@@ -8950,7 +9389,7 @@
 		<area>
 			<type>Rectangle</type>
 			<beginRow>1</beginRow>
-			<endRow>77</endRow>
+			<endRow>81</endRow>
 			<beginColumn>3</beginColumn>
 			<endColumn>3</endColumn>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
@@ -8961,7 +9400,7 @@
 		<area>
 			<type>Rectangle</type>
 			<beginRow>1</beginRow>
-			<endRow>77</endRow>
+			<endRow>81</endRow>
 			<beginColumn>4</beginColumn>
 			<endColumn>4</endColumn>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
@@ -9016,7 +9455,7 @@
 		<area>
 			<type>Rectangle</type>
 			<beginRow>1</beginRow>
-			<endRow>77</endRow>
+			<endRow>81</endRow>
 			<beginColumn>0</beginColumn>
 			<endColumn>0</endColumn>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
@@ -9063,7 +9502,6 @@
 			<endRow>13</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -9071,7 +9509,7 @@
 		<area>
 			<type>Rectangle</type>
 			<beginRow>1</beginRow>
-			<endRow>77</endRow>
+			<endRow>81</endRow>
 			<beginColumn>9</beginColumn>
 			<endColumn>9</endColumn>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
@@ -9136,11 +9574,10 @@
 		<name>НеПроведенныеДокументы</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>69</beginRow>
-			<endRow>69</endRow>
+			<beginRow>73</beginRow>
+			<endRow>73</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -9228,7 +9665,6 @@
 			<endRow>30</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -9239,7 +9675,6 @@
 			<endRow>31</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -9250,7 +9685,6 @@
 			<endRow>36</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -9258,7 +9692,7 @@
 		<area>
 			<type>Rectangle</type>
 			<beginRow>1</beginRow>
-			<endRow>77</endRow>
+			<endRow>81</endRow>
 			<beginColumn>10</beginColumn>
 			<endColumn>10</endColumn>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
@@ -9279,8 +9713,8 @@
 		<name>ОстаткиВзаиморасчетов</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>67</beginRow>
-			<endRow>67</endRow>
+			<beginRow>71</beginRow>
+			<endRow>71</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -9300,85 +9734,78 @@
 		<name>ОстаткиСчета10</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>59</beginRow>
-			<endRow>59</endRow>
+			<beginRow>63</beginRow>
+			<endRow>63</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
 		<name>ОстаткиСчета19</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>60</beginRow>
-			<endRow>60</endRow>
+			<beginRow>64</beginRow>
+			<endRow>64</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
 		<name>ОстаткиСчета41</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>61</beginRow>
-			<endRow>61</endRow>
+			<beginRow>65</beginRow>
+			<endRow>65</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
 		<name>ОстаткиСчета60</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>62</beginRow>
-			<endRow>62</endRow>
+			<beginRow>66</beginRow>
+			<endRow>66</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
 		<name>ОстаткиСчета62</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>63</beginRow>
-			<endRow>63</endRow>
+			<beginRow>67</beginRow>
+			<endRow>67</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
 		<name>ОстаткиСчета6802</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>64</beginRow>
-			<endRow>64</endRow>
+			<beginRow>68</beginRow>
+			<endRow>68</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
 		<name>ОстаткиСчета76АВ</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>65</beginRow>
-			<endRow>65</endRow>
+			<beginRow>69</beginRow>
+			<endRow>69</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
 		<name>ОстаткиСчета76ВА</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>66</beginRow>
-			<endRow>66</endRow>
+			<beginRow>70</beginRow>
+			<endRow>70</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -9398,11 +9825,10 @@
 		<name>ОтрицательныеОстаткиНаСчетахБУ</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>58</beginRow>
-			<endRow>58</endRow>
+			<beginRow>62</beginRow>
+			<endRow>62</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -9424,7 +9850,6 @@
 			<endRow>21</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -9435,7 +9860,6 @@
 			<endRow>20</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -9486,11 +9910,10 @@
 		<name>ПоступлениеТоваровИУслуг</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>70</beginRow>
-			<endRow>70</endRow>
+			<beginRow>74</beginRow>
+			<endRow>74</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -9498,7 +9921,7 @@
 		<area>
 			<type>Rows</type>
 			<beginRow>2</beginRow>
-			<endRow>77</endRow>
+			<endRow>81</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
@@ -9509,7 +9932,7 @@
 		<area>
 			<type>Rectangle</type>
 			<beginRow>1</beginRow>
-			<endRow>77</endRow>
+			<endRow>81</endRow>
 			<beginColumn>2</beginColumn>
 			<endColumn>2</endColumn>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
@@ -9531,7 +9954,7 @@
 		<area>
 			<type>Rectangle</type>
 			<beginRow>1</beginRow>
-			<endRow>77</endRow>
+			<endRow>81</endRow>
 			<beginColumn>6</beginColumn>
 			<endColumn>6</endColumn>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
@@ -9545,7 +9968,6 @@
 			<endRow>56</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -9564,7 +9986,7 @@
 		<area>
 			<type>Rectangle</type>
 			<beginRow>1</beginRow>
-			<endRow>77</endRow>
+			<endRow>81</endRow>
 			<beginColumn>11</beginColumn>
 			<endColumn>11</endColumn>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
@@ -9575,7 +9997,7 @@
 		<area>
 			<type>Rectangle</type>
 			<beginRow>1</beginRow>
-			<endRow>77</endRow>
+			<endRow>81</endRow>
 			<beginColumn>12</beginColumn>
 			<endColumn>12</endColumn>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
@@ -9601,6 +10023,16 @@
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>РазделЕдиныйНалоговыйСчет</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>57</beginRow>
+			<endRow>57</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -9640,30 +10072,28 @@
 		<name>РазделОстаткиНаСчетах</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>57</beginRow>
-			<endRow>57</endRow>
+			<beginRow>61</beginRow>
+			<endRow>61</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
 		<name>РазделПервинчыеДокументы</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>68</beginRow>
-			<endRow>68</endRow>
+			<beginRow>72</beginRow>
+			<endRow>72</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
 		<name>РазделСправочники</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>73</beginRow>
-			<endRow>73</endRow>
+			<beginRow>77</beginRow>
+			<endRow>77</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -9684,7 +10114,7 @@
 		<area>
 			<type>Rectangle</type>
 			<beginRow>1</beginRow>
-			<endRow>77</endRow>
+			<endRow>81</endRow>
 			<beginColumn>7</beginColumn>
 			<endColumn>7</endColumn>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
@@ -9699,6 +10129,16 @@
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>СозданиеУведомленийЕНС</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>58</beginRow>
+			<endRow>58</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -9757,11 +10197,31 @@
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
+		<name>СтатусУведомленийЕНС</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>60</beginRow>
+			<endRow>60</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>СуммыУведомленийЕНС</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>59</beginRow>
+			<endRow>59</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
 		<name>СчетФактураВыданный</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>72</beginRow>
-			<endRow>72</endRow>
+			<beginRow>76</beginRow>
+			<endRow>76</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -9770,8 +10230,8 @@
 		<name>СчетФактураПолученный</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>71</beginRow>
-			<endRow>71</endRow>
+			<beginRow>75</beginRow>
+			<endRow>75</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -9781,7 +10241,7 @@
 		<area>
 			<type>Rectangle</type>
 			<beginRow>1</beginRow>
-			<endRow>77</endRow>
+			<endRow>81</endRow>
 			<beginColumn>1</beginColumn>
 			<endColumn>1</endColumn>
 			<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
@@ -10177,11 +10637,11 @@
 							<beginRow>1</beginRow>
 							<beginRowOffset>1788</beginRowOffset>
 							<endRow>1</endRow>
-							<endRowOffset>51</endRowOffset>
+							<endRowOffset>50</endRowOffset>
 							<beginColumn>1</beginColumn>
-							<beginColumnOffset>21</beginColumnOffset>
+							<beginColumnOffset>22</beginColumnOffset>
 							<endColumn>2</endColumn>
-							<endColumnOffset>387</endColumnOffset>
+							<endColumnOffset>353</endColumnOffset>
 							<autoSize>true</autoSize>
 							<pictureSize>Stretch</pictureSize>
 						</note>
@@ -10280,11 +10740,11 @@
 							<beginRow>1</beginRow>
 							<beginRowOffset>84</beginRowOffset>
 							<endRow>1</endRow>
-							<endRowOffset>177</endRowOffset>
+							<endRowOffset>166</endRowOffset>
 							<beginColumn>1</beginColumn>
-							<beginColumnOffset>45</beginColumnOffset>
+							<beginColumnOffset>46</beginColumnOffset>
 							<endColumn>5</endColumn>
-							<endColumnOffset>444</endColumnOffset>
+							<endColumnOffset>420</endColumnOffset>
 							<autoSize>true</autoSize>
 							<pictureSize>Stretch</pictureSize>
 						</note>
@@ -16478,6 +16938,445 @@
 			<index>57</index>
 			<row>
 				<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
+				<formatIndex>17</formatIndex>
+				<c>
+					<c>
+						<f>18</f>
+						<tl>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Единый налоговый счет</v8:content>
+							</v8:item>
+						</tl>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>18</f>
+						<tl>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>1</v8:content>
+							</v8:item>
+						</tl>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>18</f>
+						<tl>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Проверка правильности операций по единому налоговому счету</v8:content>
+							</v8:item>
+						</tl>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>18</f>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>18</f>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>18</f>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>18</f>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>18</f>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>19</f>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>19</f>
+					</c>
+				</c>
+				<c>
+					<i>11</i>
+					<c>
+						<f>0</f>
+						<tl/>
+					</c>
+				</c>
+				<c>
+					<i>13</i>
+					<c>
+						<f>19</f>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>19</f>
+					</c>
+				</c>
+			</row>
+		</rowsItem>
+		<rowsItem>
+			<index>58</index>
+			<row>
+				<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
+				<c>
+					<c>
+						<f>1</f>
+						<tl>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Создание уведомлений ЕНС</v8:content>
+							</v8:item>
+						</tl>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>14</f>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>14</f>
+						<tl>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Наличие уведомлений об исчисленных суммах налогов, авансовых платежей по налогам, сборов, страховых взносов</v8:content>
+							</v8:item>
+						</tl>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>14</f>
+						<tl>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Для всех исчисленных сумм налогов, авансовых платежей по налогам, сборов, страховых взносов созданы уведомления</v8:content>
+							</v8:item>
+						</tl>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>5</f>
+						<tl>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Не по всем исчисленным суммам налогов, авансовых платежей по налогам, сборам, страховым взносам созданы уведомления</v8:content>
+							</v8:item>
+						</tl>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>14</f>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>7</f>
+						<tl>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Начислены суммы налогов, авансовых платежей по налогам, сборам, страховым взносам, но уведомления по ним не созданы</v8:content>
+							</v8:item>
+						</tl>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>14</f>
+						<tl>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Для всех налогов, сборов, страховых взносов нужно создать уведомления</v8:content>
+							</v8:item>
+						</tl>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>13</f>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>13</f>
+						<tl>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>2023</v8:content>
+							</v8:item>
+						</tl>
+					</c>
+				</c>
+				<c>
+					<i>11</i>
+					<c>
+						<f>0</f>
+					</c>
+				</c>
+				<c>
+					<i>13</i>
+					<c>
+						<f>13</f>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>13</f>
+					</c>
+				</c>
+			</row>
+		</rowsItem>
+		<rowsItem>
+			<index>59</index>
+			<row>
+				<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
+				<c>
+					<c>
+						<f>1</f>
+						<tl>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Правильность сумм уведомлений ЕНС</v8:content>
+							</v8:item>
+						</tl>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>14</f>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>14</f>
+						<tl>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Суммы уведомлений об исчисленных суммах налогов, авансовых платежей по налогам, сборов, страховых взносов, соответствуют суммам, рассчитанным в программе</v8:content>
+							</v8:item>
+						</tl>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>14</f>
+						<tl>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Сумма уведомления должна быть равна сумме налогов, авансовых платежей по налогам, сборов, страховых взносов, рассчитанных в программе</v8:content>
+							</v8:item>
+						</tl>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>14</f>
+						<tl>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Обнаружены уведомления, в которых суммы налогов, авансовых платежей по налогам, сборов, страховых взносов, отличаются от сумм, рассчитанных в программе</v8:content>
+							</v8:item>
+						</tl>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>14</f>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>14</f>
+						<tl>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Суммы уведомлений скорректированы вручную, либо сумма налогов, авансовых платежей по налогам, сборам, страховым взносам изменились после создания уведомления</v8:content>
+							</v8:item>
+						</tl>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>14</f>
+						<tl>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Скорректируйте суммы в этих уведомлениях, если уведомления ещё не сданы. Если сданы, то создайте повторные с уточненной суммой и сдайте их в ФНС. Если декларация (расчет) за этот период уже сдана, то отправлять уведомления повторно не требуется.</v8:content>
+							</v8:item>
+						</tl>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>13</f>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>13</f>
+						<tl>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>2023</v8:content>
+							</v8:item>
+						</tl>
+					</c>
+				</c>
+				<c>
+					<i>11</i>
+					<c>
+						<f>0</f>
+					</c>
+				</c>
+				<c>
+					<i>13</i>
+					<c>
+						<f>13</f>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>13</f>
+					</c>
+				</c>
+			</row>
+		</rowsItem>
+		<rowsItem>
+			<index>60</index>
+			<row>
+				<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
+				<c>
+					<c>
+						<f>1</f>
+						<tl>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Отправка уведомлений ЕНС</v8:content>
+							</v8:item>
+						</tl>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>14</f>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>14</f>
+						<tl>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Отправка в ФНС всех уведомлений об исчисленных суммах налогов, авансовых платежей по налогам, сборов, страховых взносов</v8:content>
+							</v8:item>
+						</tl>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>14</f>
+						<tl>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Все уведомления об исчисленных суммах налогов, авансовых платежей по налогам, сборов, страховых взносов отправлены в ФНС и по ним получен статус "Сдано"</v8:content>
+							</v8:item>
+						</tl>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>14</f>
+						<tl>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Обнаружены уведомления об исчисленных суммах налогов, авансовых платежей по налогам, сборов, страховых взносов, у которых состояние отличается от "Сдано"</v8:content>
+							</v8:item>
+						</tl>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>14</f>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>14</f>
+						<tl>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>- Уведомления об исчисленных суммах налогов не отправлены в ФНС
+- Не изменен статус уведомления об исчисленных суммах налогов</v8:content>
+							</v8:item>
+						</tl>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>8</f>
+						<tl>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Отправьте уведомление в ФНС, либо установите статус "Сдано" вручную</v8:content>
+							</v8:item>
+						</tl>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>13</f>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>13</f>
+						<tl>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>2023</v8:content>
+							</v8:item>
+						</tl>
+					</c>
+				</c>
+				<c>
+					<i>11</i>
+					<c>
+						<f>0</f>
+					</c>
+				</c>
+				<c>
+					<i>13</i>
+					<c>
+						<f>13</f>
+					</c>
+				</c>
+				<c>
+					<c>
+						<f>13</f>
+					</c>
+				</c>
+			</row>
+		</rowsItem>
+		<rowsItem>
+			<index>61</index>
+			<row>
+				<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
 				<c>
 					<c>
 						<f>1</f>
@@ -16549,8 +17448,8 @@
 		</rowsItem>
 		<templateMode>true</templateMode>
 		<defaultFormatIndex>13</defaultFormatIndex>
-		<height>58</height>
-		<vgRows>58</vgRows>
+		<height>62</height>
+		<vgRows>62</vgRows>
 		<namedItem xsi:type="NamedItemCells">
 			<name>ВсеКосвРасходыРаспределены</name>
 			<area>
@@ -16666,7 +17565,7 @@
 			<area>
 				<type>Rectangle</type>
 				<beginRow>1</beginRow>
-				<endRow>57</endRow>
+				<endRow>61</endRow>
 				<beginColumn>5</beginColumn>
 				<endColumn>5</endColumn>
 				<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
@@ -16677,7 +17576,7 @@
 			<area>
 				<type>Rectangle</type>
 				<beginRow>1</beginRow>
-				<endRow>57</endRow>
+				<endRow>61</endRow>
 				<beginColumn>3</beginColumn>
 				<endColumn>3</endColumn>
 				<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
@@ -16688,7 +17587,7 @@
 			<area>
 				<type>Rectangle</type>
 				<beginRow>1</beginRow>
-				<endRow>57</endRow>
+				<endRow>61</endRow>
 				<beginColumn>4</beginColumn>
 				<endColumn>4</endColumn>
 				<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
@@ -16743,7 +17642,7 @@
 			<area>
 				<type>Rectangle</type>
 				<beginRow>1</beginRow>
-				<endRow>57</endRow>
+				<endRow>61</endRow>
 				<beginColumn>0</beginColumn>
 				<endColumn>0</endColumn>
 				<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
@@ -16797,7 +17696,7 @@
 			<area>
 				<type>Rectangle</type>
 				<beginRow>1</beginRow>
-				<endRow>57</endRow>
+				<endRow>61</endRow>
 				<beginColumn>9</beginColumn>
 				<endColumn>9</endColumn>
 				<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
@@ -16970,7 +17869,7 @@
 			<area>
 				<type>Rectangle</type>
 				<beginRow>1</beginRow>
-				<endRow>57</endRow>
+				<endRow>61</endRow>
 				<beginColumn>10</beginColumn>
 				<endColumn>10</endColumn>
 				<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
@@ -17089,7 +17988,7 @@
 			<area>
 				<type>Rows</type>
 				<beginRow>2</beginRow>
-				<endRow>57</endRow>
+				<endRow>61</endRow>
 				<beginColumn>-1</beginColumn>
 				<endColumn>-1</endColumn>
 				<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
@@ -17100,7 +17999,7 @@
 			<area>
 				<type>Rectangle</type>
 				<beginRow>1</beginRow>
-				<endRow>57</endRow>
+				<endRow>61</endRow>
 				<beginColumn>2</beginColumn>
 				<endColumn>2</endColumn>
 				<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
@@ -17122,7 +18021,7 @@
 			<area>
 				<type>Rectangle</type>
 				<beginRow>1</beginRow>
-				<endRow>57</endRow>
+				<endRow>61</endRow>
 				<beginColumn>6</beginColumn>
 				<endColumn>6</endColumn>
 				<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
@@ -17154,7 +18053,7 @@
 			<area>
 				<type>Rectangle</type>
 				<beginRow>1</beginRow>
-				<endRow>57</endRow>
+				<endRow>61</endRow>
 				<beginColumn>11</beginColumn>
 				<endColumn>11</endColumn>
 				<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
@@ -17165,7 +18064,7 @@
 			<area>
 				<type>Rectangle</type>
 				<beginRow>1</beginRow>
-				<endRow>57</endRow>
+				<endRow>61</endRow>
 				<beginColumn>12</beginColumn>
 				<endColumn>12</endColumn>
 				<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
@@ -17191,6 +18090,16 @@
 				<beginColumn>-1</beginColumn>
 				<endColumn>-1</endColumn>
 				<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
+			</area>
+		</namedItem>
+		<namedItem xsi:type="NamedItemCells">
+			<name>РазделЕдиныйНалоговыйСчет</name>
+			<area>
+				<type>Rows</type>
+				<beginRow>57</beginRow>
+				<endRow>57</endRow>
+				<beginColumn>-1</beginColumn>
+				<endColumn>-1</endColumn>
 			</area>
 		</namedItem>
 		<namedItem xsi:type="NamedItemCells">
@@ -17242,7 +18151,7 @@
 			<area>
 				<type>Rectangle</type>
 				<beginRow>1</beginRow>
-				<endRow>57</endRow>
+				<endRow>61</endRow>
 				<beginColumn>7</beginColumn>
 				<endColumn>7</endColumn>
 				<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
@@ -17257,6 +18166,16 @@
 				<beginColumn>-1</beginColumn>
 				<endColumn>-1</endColumn>
 				<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>
+			</area>
+		</namedItem>
+		<namedItem xsi:type="NamedItemCells">
+			<name>СозданиеУведомленийЕНС</name>
+			<area>
+				<type>Rows</type>
+				<beginRow>58</beginRow>
+				<endRow>58</endRow>
+				<beginColumn>-1</beginColumn>
+				<endColumn>-1</endColumn>
 			</area>
 		</namedItem>
 		<namedItem xsi:type="NamedItemCells">
@@ -17315,11 +18234,31 @@
 			</area>
 		</namedItem>
 		<namedItem xsi:type="NamedItemCells">
+			<name>СтатусУведомленийЕНС</name>
+			<area>
+				<type>Rows</type>
+				<beginRow>60</beginRow>
+				<endRow>60</endRow>
+				<beginColumn>-1</beginColumn>
+				<endColumn>-1</endColumn>
+			</area>
+		</namedItem>
+		<namedItem xsi:type="NamedItemCells">
+			<name>СуммыУведомленийЕНС</name>
+			<area>
+				<type>Rows</type>
+				<beginRow>59</beginRow>
+				<endRow>59</endRow>
+				<beginColumn>-1</beginColumn>
+				<endColumn>-1</endColumn>
+			</area>
+		</namedItem>
+		<namedItem xsi:type="NamedItemCells">
 			<name>ЭтоГруппа</name>
 			<area>
 				<type>Rectangle</type>
 				<beginRow>1</beginRow>
-				<endRow>57</endRow>
+				<endRow>61</endRow>
 				<beginColumn>1</beginColumn>
 				<endColumn>1</endColumn>
 				<columnsID>8934520c-492d-4814-a748-f532a6399b92</columnsID>

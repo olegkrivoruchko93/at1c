@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.15">
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
 	<ConfigVersions>
 		<Metadata name="Catalog.Валюты" id="56616a72-78e3-4758-a398-25cd0c877c93" configVersion="8f56b18f5425d6d052f86801132e1ff5421c0bca"/>
 		<Metadata name="Catalog.ВидыНоменклатуры" id="6c9521c7-fe3f-422e-bbd3-3e4646d9ef0e" configVersion="8f09f0cbf4dec64d4a59f55fa43519ebaa8eae1f"/>
@@ -108,8 +108,8 @@
 		<Metadata name="CommonModule.ЗаметкиПользователя.Module" id="d5fc17d5-558a-4214-a6e6-c235fd6008bb.0" configVersion="d43c6e8bfe7aed23279cf4128904d7641d5e0039"/>
 		<Metadata name="CommonModule.ЗаметкиПользователяСлужебный" id="30b7258a-4dc6-49cc-8f30-0382730e7972" configVersion="978e62c1cdb204ab419841f3d26ab9716396a5a7"/>
 		<Metadata name="CommonModule.ЗаметкиПользователяСлужебный.Module" id="30b7258a-4dc6-49cc-8f30-0382730e7972.0" configVersion="1e8303cdc5490063a4c437fd70cf960d600a0db5"/>
-		<Metadata name="CommonModule.ИнтеграцияПодсистемБСП" id="7cb68e20-f616-44f9-9ffb-aaa99eea7f6f" configVersion="2532a9b0159342450e5d9c165be8a3e6379dcad4"/>
-		<Metadata name="CommonModule.ИнтеграцияПодсистемБСП.Module" id="7cb68e20-f616-44f9-9ffb-aaa99eea7f6f.0" configVersion="cf480f4def4a5b6bd26fa054108c46ed717d5765"/>
+		<Metadata name="CommonModule.ИнтеграцияПодсистемБСП" id="7cb68e20-f616-44f9-9ffb-aaa99eea7f6f" configVersion="096a8b8a0df1503e55ae70b1d1612549d1ae171a"/>
+		<Metadata name="CommonModule.ИнтеграцияПодсистемБСП.Module" id="7cb68e20-f616-44f9-9ffb-aaa99eea7f6f.0" configVersion="4ab74cfce44f794c60c4f9d2c1a2457568120b31"/>
 		<Metadata name="CommonModule.ИнтеграцияПодсистемБСПКлиент" id="f45bd3e0-2d74-4924-a6ce-2320ee035e60" configVersion="64c7798ea992787dd390373635e82f27d6563169"/>
 		<Metadata name="CommonModule.ИнтеграцияПодсистемБСПКлиент.Module" id="f45bd3e0-2d74-4924-a6ce-2320ee035e60.0" configVersion="7b2bbc470688e0f2a1d90a67c13e86f75278699d"/>
 		<Metadata name="CommonModule.ИнформацияПриЗапускеКлиент" id="6ce3d1bd-7096-4815-b60f-89e7c93072c5" configVersion="57280c1c63579f3cc37c45aa8ea48e9c8468cc6f"/>
@@ -165,7 +165,7 @@
 		<Metadata name="CommonPicture.СостояниеПроверкиРНПТ" id="17c4a916-29e8-4a76-afd7-fdac8f8c6f30" configVersion="571cee5bde3dab8e7ff8d207de60710a5d583727"/>
 		<Metadata name="CommonPicture.СостоянияДокумента" id="a3527d20-994d-482b-b5ef-6a18bff3db5d" configVersion="22c2afb0210b168a32fdfdebceb5011a811438cc"/>
 		<Metadata name="CommonPicture.СтрелкаВправо" id="572acca0-190f-4f1a-a66f-483651f938e9" configVersion="7f6cd51f2e70f0832d97239db58443b9ab09e02d"/>
-		<Metadata name="Configuration.ИнструментыБухгалтера" id="1abee060-0e0d-4e6e-a462-09df0ae0aaf3" configVersion="a6ef5cd1ca9035e78cddc84012f32028f85c0b91"/>
+		<Metadata name="Configuration.ИнструментыБухгалтера" id="1abee060-0e0d-4e6e-a462-09df0ae0aaf3" configVersion="a0101155d95e8e1659d07c0469253e4a752ad160"/>
 		<Metadata name="Configuration.ИнструментыБухгалтера.CommandInterface" id="2a4aa3d5-336e-4b8a-a86a-19ecbb5cc879.a" configVersion="ff88ab6c121567ab1ed7827e0eed1be4d9081bdc"/>
 		<Metadata name="Configuration.ИнструментыБухгалтера.MainSectionCommandInterface" id="2a4aa3d5-336e-4b8a-a86a-19ecbb5cc879.9" configVersion="2ef1ca3f2cce50f67bbcd11f365a8f2f6d3409a3"/>
 		<Metadata name="Configuration.ИнструментыБухгалтера.ManagedApplicationModule" id="2a4aa3d5-336e-4b8a-a86a-19ecbb5cc879.6" configVersion="20457afea862c6417e7ee6b80f355fe061e51ba9"/>
@@ -357,14 +357,14 @@
 		<Metadata name="InformationRegister.НапоминанияПользователя.ManagerModule" id="06bb35a0-68cf-4faa-977c-c3c3f0e648e3.2" configVersion="65f0b1dced2fc810e194fe993331911b9509c90d"/>
 		<Metadata name="InformationRegister.НапоминанияПользователя.RecordSetModule" id="06bb35a0-68cf-4faa-977c-c3c3f0e648e3.1" configVersion="8ac9127d695ae46d5aac610e62024f161975d9c7"/>
 		<Metadata name="Language.Русский" id="679e9d36-9292-4cb2-b5e1-8666f28cdf60" configVersion="50ca96a7a0452d1e073b0d26c40d008d5cf9c16a"/>
-		<Metadata name="Report.ЭкспрессПроверкаВеденияУчета" id="b1ea7488-0ea2-4180-a717-d1c1342eca40" configVersion="d1ec6b8e30af7a1c59c967f7b4d232f4234cdedc"/>
+		<Metadata name="Report.ЭкспрессПроверкаВеденияУчета" id="b1ea7488-0ea2-4180-a717-d1c1342eca40" configVersion="18c7035b57df159856e2fa10dba7291b1b397ecc"/>
 		<Metadata name="Report.ЭкспрессПроверкаВеденияУчета.Form.ФормаОтчета" id="916c0595-cf43-4fe1-85ba-686cdadaa5d3" configVersion="a9d3d96b2a98627856f15028fe003f2d40a5f281"/>
-		<Metadata name="Report.ЭкспрессПроверкаВеденияУчета.Form.ФормаОтчета.Form" id="916c0595-cf43-4fe1-85ba-686cdadaa5d3.0" configVersion="77152ad3614841b5cd6e5f8d92aac20cf03a512c"/>
-		<Metadata name="Report.ЭкспрессПроверкаВеденияУчета.ManagerModule" id="b1ea7488-0ea2-4180-a717-d1c1342eca40.2" configVersion="93421811b56cfc24b0525b56f5fb6d2cdc3c67db"/>
-		<Metadata name="Report.ЭкспрессПроверкаВеденияУчета.Template.ОписаниеПроверок" id="b5964152-6293-4ef2-b9e2-f8aa9e1b98e2" configVersion="f5e71034820125e6a613fb75b276c25d68faaf58"/>
-		<Metadata name="Report.ЭкспрессПроверкаВеденияУчета.Template.ОписаниеПроверок.Template" id="b5964152-6293-4ef2-b9e2-f8aa9e1b98e2.0" configVersion="fa7aac24132fc2be81f0f33f94f8e258e2abc732"/>
-		<Metadata name="Report.ЭкспрессПроверкаВеденияУчета.Template.ОтчетыОбОшибках" id="c687b7b1-0310-4fa7-a33d-0d4e4ed1b9cd" configVersion="31811fb464ac1b5525572dac4098cbc0975dc82e"/>
-		<Metadata name="Report.ЭкспрессПроверкаВеденияУчета.Template.ОтчетыОбОшибках.Template" id="c687b7b1-0310-4fa7-a33d-0d4e4ed1b9cd.0" configVersion="c1b57e8956d34c06423b4e61c433a898a06ab7ae"/>
+		<Metadata name="Report.ЭкспрессПроверкаВеденияУчета.Form.ФормаОтчета.Form" id="916c0595-cf43-4fe1-85ba-686cdadaa5d3.0" configVersion="bdfea3b57011f28eb9e11576a2e8465e8dcdc8cb"/>
+		<Metadata name="Report.ЭкспрессПроверкаВеденияУчета.ManagerModule" id="b1ea7488-0ea2-4180-a717-d1c1342eca40.2" configVersion="8204b0cc19b506b46620a73242f000a4bc0c66b3"/>
+		<Metadata name="Report.ЭкспрессПроверкаВеденияУчета.Template.ОписаниеПроверок" id="3de18523-3c71-4243-841b-5f14f2412b7d" configVersion="15936973a48ad455db7f613b65ca8ed0d402ca07"/>
+		<Metadata name="Report.ЭкспрессПроверкаВеденияУчета.Template.ОписаниеПроверок.Template" id="3de18523-3c71-4243-841b-5f14f2412b7d.0" configVersion="b9ef8f72dc254ab71e5b2c6a65d3ae3d0b916215"/>
+		<Metadata name="Report.ЭкспрессПроверкаВеденияУчета.Template.ОтчетыОбОшибках" id="f17b5fc9-77be-4351-a100-acc896e046b2" configVersion="449dc5a54896c90391c192548d0f0b345d173a46"/>
+		<Metadata name="Report.ЭкспрессПроверкаВеденияУчета.Template.ОтчетыОбОшибках.Template" id="f17b5fc9-77be-4351-a100-acc896e046b2.0" configVersion="c7b137d8cc0a3e11643271ad3347f68e5e9d2e5c"/>
 		<Metadata name="Role.ДБ_ОсновнаяРоль" id="302f5d08-06e1-4aae-875c-5d02f1f61e1f" configVersion="8dc776d920f711f5701544eabbb3b1c31f4dd1ab"/>
 		<Metadata name="Role.ДобавлениеИзменениеЗаметок" id="63528f74-1519-4127-8747-e288073819ec" configVersion="b4b449c1365d032357cc330d25abfc6a3274cb8f"/>
 		<Metadata name="Role.ДобавлениеИзменениеЗаметок.Rights" id="63528f74-1519-4127-8747-e288073819ec.0" configVersion="cde8573a93ff7670ebd52ab2f08079f9fbbaac8f"/>
